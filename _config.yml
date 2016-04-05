@@ -1,13 +1,13 @@
 # Permalinks
-permalink:        pretty
+permalink:        none
 
 # Setup
-url:              http://qwtel.com
+url:              http://myanbin.github.io
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
-baseurl:          /hydejack
+baseurl:          ''
 
-title:            Hydejack
+title:            'Yanbin Ma'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
@@ -19,18 +19,11 @@ description:      >
 sidebar_tags:     [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
-image:            /hydejack/public/img/nap.jpg
+image:            /public/img/nap.jpg
 color:            '#A85641'
 
 author:
-  name:           'Florian Klampfer'
+  name:           'Yanbin Ma'
   twitter:        qwtel
-  github:         qwtel
+  github:         myanbin
   photo:          http://qwtel.com/public/img/flo.jpg
-
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:          |
-    Hi, I'm Florian or [`@qwtel`](https://www.twitter.com/qwtel), which isn't an acronym,
-    I just [wanted a short username](http://qwtel.com/how-to-find-a-short-username) and that one happened to be available.
-
-    Read my thoughts on [#software](http://qwtel.com/tag/software) and [#cryptoeconomics](http://qwtel.com/tag/cryptoeconomics).

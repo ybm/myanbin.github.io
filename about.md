@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: "关于"
 ---
 
 {% comment %}
@@ -13,9 +13,24 @@ title: About
   ![{{ site.author.name }}]({{ site.author.photo }}){:.me}
 {% endif %}
 
-{{ site.author.about }}
 
-[write something about self]
+我是 <u>饮冰先生</u>，目前居住于中国北京，喜爱阅读和探索身边事物，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
+
+我是一个 Web 前端开发工程师，我的简历在这里。
+
+### 更加了解我
+
+我在[豆瓣读书](http://book.douban.com/people/yianbin)上分享我正在看的书以及想看的书，在 [GitHub](https://github.com/yianbin) 上维护我的代码以及关注开源项目。
+
+
+### 为什么要写这个博客？
+
+花时间进行写作是一件很有意义也很酷的事。我希望能在这里来分享技术、记录生活，同时也希望能结交到更多朋友。
+
+### 联系我
+
+欢迎关注我的[微博](http://weibo.com/yianbin)，或发邮件到 [ma.yanbin@qq.com](mailto:ma.yanbin@qq.com) 与我取得联系。
+
 
 ***
 
