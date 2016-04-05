@@ -16,7 +16,7 @@ title: "关于"
 
 我是 <u>饮冰先生</u>，目前居住于中国北京，喜爱阅读和探索身边事物，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
 
-我是一个 Web 前端开发工程师，我的简历在这里。
+我是一个前端开发工程师，我的简历在这里。
 
 ### 更加了解我
 
@@ -29,7 +29,7 @@ title: "关于"
 
 ### 联系我
 
-欢迎关注我的[微博](http://weibo.com/yianbin)，或发邮件到 [ma.yanbin@qq.com](mailto:ma.yanbin@qq.com) 与我取得联系。
+欢迎关注我的微博 [@ 孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [ma.yanbin@qq.com](mailto:ma.yanbin@qq.com) 与我取得联系。
 
 
 ***

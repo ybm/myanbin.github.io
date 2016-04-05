@@ -27,3 +27,7 @@ author:
   twitter:        qwtel
   github:         myanbin
   photo:          http://qwtel.com/public/img/flo.jpg
+
+  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
+  about:          |
+    我是饮冰先生，热爱前端与黑客文化，喜欢与人交流分享。我的微博 [@ 孺子牛骑士](http://weibo.com/yianbin)
