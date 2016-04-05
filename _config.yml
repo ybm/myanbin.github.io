@@ -16,6 +16,9 @@ description:      >
 # The tags listed as entries in the sidebar
 sidebar_tags:     []
 
+# Google Analytics tracking ID
+ga_id:            'UA-35742418-1'
+
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/nap.jpg
 color:            '#A85641'

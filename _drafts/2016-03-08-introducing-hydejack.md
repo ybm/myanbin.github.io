@@ -44,7 +44,7 @@ Since the background image contributes to the feel of the page I'm letting it pe
 ### Preview
 {:.preview}
 
-<iframe class="preview" src="/hydejack/2016/03/08/introducing-hydejack/" style="border: 1px solid #ddd; width: 340px; height: 520px; margin-top: 1rem"></iframe>
+<iframe class="preview" src="/" style="border: 1px solid #ddd; width: 340px; height: 520px; margin-top: 1rem"></iframe>
 
 ## Manual
 
