@@ -7,27 +7,25 @@ url:              http://myanbin.github.io
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          ''
 
-title:            'Yanbin Ma'
+title:            '饮冰先生'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
 description:      >
-  A pretentious two-column [Jekyll](http://jekyllrb.com/) theme, stolen by [@qwtel](https://twitter.com/qwtel)
-  from [Hyde](http://hyde.getpoole.com).
-  You could say it was.. [hydejacked](http://media3.giphy.com/media/makedRIckZBW8/giphy.gif).
+  关于代码和一切
 
 # The tags listed as entries in the sidebar
-sidebar_tags:     [jekyll, hyde]
+sidebar_tags:     []
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/nap.jpg
 color:            '#A85641'
 
 author:
-  name:           'Yanbin Ma'
+  name:           '饮冰先生'
   twitter:        qwtel
   github:         myanbin
   photo:          http://qwtel.com/public/img/flo.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    我是饮冰先生，热爱前端与黑客文化，喜欢与人交流分享。我的微博 [@ 孺子牛骑士](http://weibo.com/yianbin)
+    我是饮冰先生，热爱前端与黑客文化，喜欢与人交流分享。我的微博 [@孺子牛骑士](http://weibo.com/yianbin)
