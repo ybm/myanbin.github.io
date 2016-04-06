@@ -311,13 +311,13 @@ h1, h2, h3, h4, h5, h6 {
   content: "\eab0";
 }
 .icon.icon-linkedin:before {
-  content: "\eac9";
+  content: "\eaca";
 }
 .icon.icon-sina-weibo:before {
-  content: "\eaca";  
+  content: "\ea9a";  
 }
 .icon.icon-rss:before {
-  content: "\ea9b";  
+  content: "\ea9c";  
 }
 
 .me {
