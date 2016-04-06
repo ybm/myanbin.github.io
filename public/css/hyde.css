@@ -226,6 +226,9 @@ h1, h2, h3, h4, h5, h6 {
 .sidebar-social > a:last-child {
   margin-right: 0;
 }
+.sidebar-social > a:hover {
+  text-decoration: none;
+}
 
 /* Enable z-index (derived from DOM structure) for the sidbar content. */
 .container {
@@ -311,7 +314,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "\eab0";
 }
 .icon.icon-linkedin:before {
-  content: "\eaca";
+  content: "\eac9";
 }
 .icon.icon-sina-weibo:before {
   content: "\ea9a";  
