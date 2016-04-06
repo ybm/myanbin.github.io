@@ -1,7 +1,7 @@
 ---
 layout: page
-order: 6
 title: "关于"
+order: 6
 ---
 
 {% comment %}

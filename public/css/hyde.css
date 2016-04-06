@@ -35,7 +35,8 @@
  */
 
 html {
-  font-family: "PT Serif", Georgia, serif;
+  /*font-family: "PT Serif", Georgia, serif;*/
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -49,7 +50,8 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Serif", Georgia, serif;
+  /*font-family: "PT Serif", Georgia, serif;*/
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
 }
 
 /*
@@ -175,7 +177,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* About section */
 .sidebar-about > h1 {
-  font-family: "Roboto Slab", "PT Serif", Georgia, serif;
+  /*font-family: "PT Serif", Georgia, serif;*/
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
   color: #fff;
   margin-top: 0;
   font-size: 2rem;
@@ -190,7 +193,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.25rem;
 }
 .sidebar-nav-item {
-  font-family: "Roboto Slab", "PT Serif", Georgia, serif;
+  /*font-family: "PT Serif", Georgia, serif;*/
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
   font-weight: bold;
   display: block;
   line-height: 1.75;

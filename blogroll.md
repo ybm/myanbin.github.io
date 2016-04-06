@@ -1,7 +1,8 @@
 ---
 layout: page
-order: 5
 title: "友链"
+color: '#00B16A'
+order: 5
 ---
 
 {% comment %}

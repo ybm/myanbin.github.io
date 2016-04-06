@@ -21,6 +21,7 @@ layout: default
   <div class="post-date">
     <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%m/%d/%y" }}</time>
     <span>{{ tags_content }}</span>
+    <span>Edit source on <a href="https://github.com/myanbin/myanbin.github.io/edit/master/{{  page.path }}">Github</a></span>
   </div>
   <hr/>
   {{ content }}
@@ -28,7 +29,7 @@ layout: default
 
 {% if site.author.about %}
 <aside class="author">
-  <h2 class="aside-title">About</h2>
+  <h2 class="aside-title">关于作者</h2>
 
   {% if site.author.photo %}
   <img class="me" src="{{ site.author.photo }}" alt="{{ site.author.name }}"/>
@@ -38,6 +39,7 @@ layout: default
 </aside>
 {% endif %}
 
+<!--
 <aside class="related">
   <h2 class="aside-title">Related Posts</h2>
   <ul class="related-posts">
@@ -61,3 +63,4 @@ layout: default
     {% endfor %}
   </ul>
 </aside>
+-->

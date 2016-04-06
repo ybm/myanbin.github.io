@@ -128,7 +128,7 @@ hr {
 }
 
 abbr {
-  font-size: 85%;
+  /*font-size: 85%;*/
   font-weight: bold;
   color: #555;
   text-transform: uppercase;
@@ -145,7 +145,7 @@ figure {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Menlo, Monaco, "Source Code Pro", Consolas, "Microsoft Yahei", monospace;
 }
 code {
   padding: .25em .5em;
@@ -161,7 +161,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  line-height: 1.4;
+  line-height: 1.2;
   /* Prevent code linebreaks and allow side-scrolling (much better readability on mobile) */
   /*white-space: pre;
   white-space: pre-wrap;
