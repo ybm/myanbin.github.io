@@ -308,13 +308,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon.icon-github:before {
-  content: "\e900";
+  content: "\eab0";
 }
 .icon.icon-linkedin:before {
   content: "\eac9";
 }
 .icon.icon-sina-weibo:before {
-  content: "\ea9a";  
+  content: "\eaca";  
+}
+.icon.icon-rss:before {
+  content: "\ea9b";  
 }
 
 .me {
