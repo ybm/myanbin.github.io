@@ -19,11 +19,7 @@
 /* Icon font for github, twitter, etc */
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon.eot?bytfto');
-    src:    url('../fonts/icomoon.eot?bytfto#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?bytfto') format('truetype'),
-        url('../fonts/icomoon.woff?bytfto') format('woff'),
-        url('../fonts/icomoon.svg?bytfto#icomoon') format('svg');
+    src: url('../fonts/icomoon.ttf?bytfto') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -36,7 +32,7 @@
 
 html {
   /*font-family: "PT Serif", Georgia, serif;*/
-  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", sans-serif;
 }
 @media (min-width: 48em) {
   html {
@@ -51,7 +47,7 @@ html {
 
 h1, h2, h3, h4, h5, h6 {
   /*font-family: "PT Serif", Georgia, serif;*/
-  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", sans-serif;
 }
 
 /*
@@ -178,7 +174,7 @@ h1, h2, h3, h4, h5, h6 {
 /* About section */
 .sidebar-about > h1 {
   /*font-family: "PT Serif", Georgia, serif;*/
-  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", sans-serif;
   color: #fff;
   margin-top: 0;
   font-size: 2rem;
@@ -194,7 +190,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .sidebar-nav-item {
   /*font-family: "PT Serif", Georgia, serif;*/
-  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Microsoft JhengHei", "WenQuanYi Micro Hei", sans-serif;
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", sans-serif;
   font-weight: bold;
   display: block;
   line-height: 1.75;
@@ -288,7 +284,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Override pool styles that are specific to this theme */
 .post-date {
-  font-weight: bold;
+  /*font-weight: bold;*/
 }
 
 .related-posts li a {
@@ -311,11 +307,14 @@ h1, h2, h3, h4, h5, h6 {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-icon-github:before {
+.icon.icon-github:before {
   content: "\e900";
 }
-.icon-icon-twitter:before {
-  content: "\e901";
+.icon.icon-linkedin:before {
+  content: "\eac9";
+}
+.icon.icon-sina-weibo:before {
+  content: "\ea9a";  
 }
 
 .me {

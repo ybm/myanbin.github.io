@@ -96,7 +96,7 @@ Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, conse
 
 Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo.
 
-<!-- ----- -->
+<!--  -->
 
 <!-- Want to see something else added? <a href="https://github.com/poole/poole/issues/new">Open an issue.</a> -->
 

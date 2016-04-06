@@ -25,8 +25,9 @@ color:            '#A85641'
 
 author:
   name:           '饮冰先生'
-  twitter:        qwtel
+  linkedin:       qwtel
   github:         myanbin
+  weibo:          yianbin
   photo:          http://qwtel.com/public/img/flo.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)

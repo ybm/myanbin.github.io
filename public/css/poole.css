@@ -149,7 +149,7 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: .85rem;
+  font-size: .95rem;
   /* Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code. */
   /*color: #bf616a;*/
   background-color: #f9f9f9;
@@ -181,7 +181,7 @@ pre code {
   background-color: transparent;
 
   /* Fit 80 chars in the block without side-scroll for large screens */
-  font-size: .74rem;
+  font-size: .95rem;
 }
 
 /* <del>Pygments</del> Rouge via Jekyll */
@@ -333,7 +333,7 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  /*margin-top: -.5rem;*/
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
