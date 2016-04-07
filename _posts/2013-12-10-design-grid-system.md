@@ -129,6 +129,4 @@ title: '如何设计一个简单的栅格系统'
 
 ### 获取源代码
 
-我把源码放到了 GitHub 上，你可以在[这里下载][1]。
-
-  [1]: https://github.com/myanbin/grid
+我把源码放到了 GitHub 上，你可以在[这里下载](https://github.com/myanbin/grid)。

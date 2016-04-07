@@ -16,9 +16,9 @@ order: 6
 {% endif %}
 
 
-我是**饮冰先生**，目前居住于中国北京，喜爱阅读和探索身边事物，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
+我是**饮冰先生**，15 年毕业于北京邮电大学计算机专业，目前居住于中国北京。我喜爱阅读和探索身边事物，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
 
-我是一个前端开发工程师，我的简历在这里。
+我目前从事 Web 前端的工作，这里是[我的简历]({{ site.baseurl }}/cv.html)。
 
 ### 更加了解我
 
@@ -27,21 +27,14 @@ order: 6
 
 ### 为什么要写这个博客？
 
-花时间进行写作是一件很有意义也很酷的事。我希望能在这里来分享技术、记录生活，同时也希望能结交到更多朋友。
+花时间进行写作是一件很有意义也很值得去做的事。我希望能在这里来分享技术、记录生活，同时也希望能结交到更多朋友。
+
+本站使用 GitHub Page 和 Jekyll 进行搭建，如果你喜欢这个博客，可以 Fork 我的[源代码](https://github.com/myanbin/myanbin.github.io)进行修改。
+
+### 版权说明
+
+我坚信着开放、自由和乐于分享是推动计算机技术发展的动力之一。所以本站所有内容均采用「[署名 4.0 国际（CC BY 4.0）](http://creativecommons.org/licenses/by/4.0/deed.zh)」创作共享协议。通俗地讲，只要在使用时署名，那么使用者可以对本站所有内容进行转载、节选、二次创作，并且允许商业性使用。
 
 ### 联系我
 
 欢迎关注我的微博 [@孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [ma.yanbin@qq.com](mailto:ma.yanbin@qq.com) 与我取得联系。
-
-
-***
-
-## References
-
-### Design
-
-* Based on [Hyde](http://hyde.getpoole.com/) by [`@mdo`](https://twitter.com/mdo).
-
-### Icons
-
-* [Wreath](https://thenounproject.com/term/laurel-wreath/203146/) by [Nick Abrams](https://thenounproject.com/nabrams/) from the [Noun Project](https://thenounproject.com/).

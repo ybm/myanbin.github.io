@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "友链"
-color: '#449fdb'
 order: 5
 ---
 
@@ -17,3 +16,5 @@ order: 5
 
 
 * [AMY's BLOG](http://banyaner.github.io)
+
+* [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)

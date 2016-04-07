@@ -17,7 +17,7 @@ description:      >
 sidebar_tags:     []
 
 # Google Analytics tracking ID
-ga_id:            'UA-35742418-1'
+analytics:        'UA-35742418-1'
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/shinkansen.jpg
