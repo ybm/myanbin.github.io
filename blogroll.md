@@ -1,13 +1,19 @@
 ---
 layout: page
 title: "友链"
-color: '#00B16A'
+color: '#449fdb'
 order: 5
 ---
 
 {% comment %}
-  The following is blogroll links
+  CSS just for this file
 {% endcomment %}
 
+<style>
+  small {
+    color: #999;
+  }
+</style>
+
+
 * [AMY's BLOG](http://banyaner.github.io)
-* [JS Term](http://ybm.github.io/) <small>（一个用 JavaScript 开发的 Linux Shell）</small>
