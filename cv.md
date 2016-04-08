@@ -22,21 +22,17 @@ permalink: cv.html
   }
   .section-heading {
     font-family: 'icomoon' !important;
-    text-transform: uppercase;
     border-bottom: 2px dotted;
   }
-  #section-3 .col-right {
+  .section-skills .col-right {
     font-size: 1.2em;
   }
-  #section-3 .skillbar {
-    margin-top: .3em;
-  }
-  #section-3 .icon.icon-skill {
+  .section-skills .icon.icon-skill {
     color: #2C82C9;
   }
-  #section-3 .icon.icon-skill:before {
-  content: "\e9b5";
-}
+  .section-skills .icon.icon-skill:before {
+    content: "\e9b5";
+  }
 </style>
 
 
@@ -67,11 +63,10 @@ permalink: cv.html
     </div>
   </div>
   <h2 id="section-3" class="section-heading" style="color: #2C82C9">Skills</h2>
-  <div class="section-table">
+  <div class="section-table section-skills">
     <div class="section-row">
       <div class="col-left">HTML / CSS</div>
       <div class="col-right">
-        <div class="skillbar">
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
@@ -79,30 +74,25 @@ permalink: cv.html
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
-        </div>
       </div>
     </div>
     <div class="section-row">
       <div class="col-left">JavaScript</div>
       <div class="col-right">
-        <div class="skillbar">
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
-        </div>
       </div>
     </div>
     <div class="section-row">
       <div class="col-left">Perl</div>
       <div class="col-right">
-        <div class="skillbar">
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
           <span class="icon icon-skill"></span>
-        </div>
       </div>
     </div>
   </div>
