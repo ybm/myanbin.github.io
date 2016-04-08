@@ -18,7 +18,13 @@ permalink: cv.html
     padding: .2em 0;
   }
   .col-left {
-    width: 10rem;
+      width: 8rem;
+    }
+  @media (min-width: 48em) {
+  
+    .col-left {
+      width: 9rem;
+    }
   }
   .section-heading {
     font-family: 'icomoon' !important;
