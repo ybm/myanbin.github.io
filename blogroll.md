@@ -15,6 +15,5 @@ order: 5
 </style>
 
 
-* [AMY's BLOG](http://banyaner.github.io)
 
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)

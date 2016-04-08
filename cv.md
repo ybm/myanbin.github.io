@@ -25,7 +25,7 @@ permalink: cv.html
     border-bottom: 2px dotted;
   }
   .section-skills .col-right {
-    height: 2em;
+    height: 1.8em;
     vertical-align: bottom;
   }
   .section-skills .skill-icon {
@@ -91,8 +91,9 @@ permalink: cv.html
       <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
   </div>
-  <h2 id="section-4" class="section-heading" style="color: #CD6B97">Interests</h2>
-  <h2 id="section-5" class="section-heading" style="color: #706F77">References</h2>
+  <h2 id="section-4" class="section-heading" style="color: #1E824C">Languages</h2>
+  <h2 id="section-5" class="section-heading" style="color: #CD6B97">Interests</h2>
+  <h2 id="section-6" class="section-heading" style="color: #706F77">References</h2>
   <ul>
     <li>我的硕士毕业论文：基于上下文无关文法的防火墙配置文件解析的研究与设计</li>
   </ul>
