@@ -32,7 +32,7 @@ permalink: cv.html
   .section-skills .skill-icon.skill-on:before {
     content: "\e9d9";
   }
-  .section-skills .skill-icon.skill-ff:before {
+  .section-skills .skill-icon.skill-off:before {
     content: "\e9d7";
   }
 </style>
@@ -67,16 +67,24 @@ permalink: cv.html
   <h2 id="section-3" class="section-heading" style="color: #2C82C9">Skills</h2>
   <div class="section-table section-skills">
     <div class="section-row">
-      <div class="col-left">HTML / CSS</div>
-      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span></div>
+      <div class="col-left">UI Design</div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
+    </div>
+    <div class="section-row">
+      <div class="col-left">HTML &amp; CSS</div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
     <div class="section-row">
       <div class="col-left">JavaScript</div>
-      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
     <div class="section-row">
       <div class="col-left">Perl</div>
-      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
+    </div>
+    <div class="section-row">
+      <div class="col-left">Database (SQL, nosql)</div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
   </div>
   <h2 id="section-4" class="section-heading" style="color: #CD6B97">Interests</h2>
