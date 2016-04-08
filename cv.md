@@ -62,17 +62,20 @@ permalink: cv.html
   <div class="section-table section-skills">
     <div class="section-row">
       <div class="col-left">HTML / CSS</div>
-      <div class="col-right">star-fullstar-fullstar-fullstar-fullstar-fullstar-fullstar-emptystar-empty</div>
+      <div class="col-right">star-fullstar-fullstar-fullstar-full</div>
     </div>
     <div class="section-row">
       <div class="col-left">JavaScript</div>
-      <div class="col-right">star-fullstar-fullstar-fullstar-fullstar-emptystar-emptystar-emptystar-empty</div>
+      <div class="col-right">star-fullstar-fullstar-emptystar-empty</div>
     </div>
     <div class="section-row">
       <div class="col-left">Perl</div>
-      <div class="col-right">star-fullstar-fullstar-fullstar-fullstar-emptystar-emptystar-emptystar-empty</div>
+      <div class="col-right">star-fullstar-fullstar-emptystar-empty</div>
     </div>
   </div>
   <h2 id="section-4" class="section-heading" style="color: #CD6B97">Interests</h2>
   <h2 id="section-5" class="section-heading" style="color: #706F77">References</h2>
+  <ul>
+    <li>我的硕士毕业论文：基于上下文无关文法的防火墙配置文件解析的研究与设计</li>
+  </ul>
 </div>
