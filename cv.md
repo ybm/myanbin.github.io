@@ -15,16 +15,27 @@ permalink: cv.html
   }
   .col-left, .col-right {
     display: table-cell;
+    padding: .2em 0;
   }
   .col-left {
-    width: 10rem;
+    width: 8rem;
   }
   .section-heading {
     font-family: 'icomoon' !important;
+    text-transform: uppercase;
     border-bottom: 2px dotted;
   }
-  .icon.icon-skill:before {
-  content: "\e9a5";
+  #section-3 .col-right {
+    font-size: 1.2em;
+  }
+  #section-3 .skillbar {
+    margin-top: .3em;
+  }
+  #section-3 .icon.icon-skill {
+    color: #2C82C9;
+  }
+  #section-3 .icon.icon-skill:before {
+  content: "\e9b5";
 }
 </style>
 
@@ -59,15 +70,40 @@ permalink: cv.html
   <div class="section-table">
     <div class="section-row">
       <div class="col-left">HTML / CSS</div>
-      <div class="col-right"><span class="icon icon-skill"></span><span class="icon icon-skill"></span><span class="icon icon-skill"></span><span class="icon icon-skill"></span></div>
+      <div class="col-right">
+        <div class="skillbar">
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+        </div>
+      </div>
     </div>
     <div class="section-row">
       <div class="col-left">JavaScript</div>
-      <div class="col-right"><span class="icon icon-skill"></span><span class="icon icon-skill"></span><span class="icon icon-skill"></span></div>
+      <div class="col-right">
+        <div class="skillbar">
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+        </div>
+      </div>
     </div>
     <div class="section-row">
       <div class="col-left">Perl</div>
-      <div class="col-right"><span class="icon icon-skill"></span><span class="icon icon-skill"></span></div>
+      <div class="col-right">
+        <div class="skillbar">
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+          <span class="icon icon-skill"></span>
+        </div>
+      </div>
     </div>
   </div>
   <h2 id="section-4" class="section-heading" style="color: #CD6B97">Interests</h2>
