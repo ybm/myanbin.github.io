@@ -24,10 +24,16 @@ permalink: cv.html
     font-family: 'icomoon' !important;
     border-bottom: 2px dotted;
   }
-  .section-skills .col-right {
+  .section-skills .skill-icon {
     font-size: 1.2em;
     font-family: 'icomoon' !important;
     color: #2C82C9;
+  }
+  .section-skills .skill-icon.skill-on:before {
+    content: "\e9d9";
+  }
+  .section-skills .skill-icon.skill-ff:before {
+    content: "\e9d7";
   }
 </style>
 
@@ -62,15 +68,15 @@ permalink: cv.html
   <div class="section-table section-skills">
     <div class="section-row">
       <div class="col-left">HTML / CSS</div>
-      <div class="col-right">star-fullstar-fullstar-fullstar-full</div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span></div>
     </div>
     <div class="section-row">
       <div class="col-left">JavaScript</div>
-      <div class="col-right">star-fullstar-fullstar-emptystar-empty</div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
     <div class="section-row">
       <div class="col-left">Perl</div>
-      <div class="col-right">star-fullstar-fullstar-emptystar-empty</div>
+      <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
   </div>
   <h2 id="section-4" class="section-heading" style="color: #CD6B97">Interests</h2>
