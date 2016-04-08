@@ -18,11 +18,15 @@ permalink: cv.html
     padding: .2em 0;
   }
   .col-left {
-    width: 8rem;
+    width: 10rem;
   }
   .section-heading {
     font-family: 'icomoon' !important;
     border-bottom: 2px dotted;
+  }
+  .section-skills .col-right {
+    height: 2em;
+    vertical-align: bottom;
   }
   .section-skills .skill-icon {
     font-size: 1.2em;
@@ -83,7 +87,7 @@ permalink: cv.html
       <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
     <div class="section-row">
-      <div class="col-left">Database (SQL, nosql)</div>
+      <div class="col-left">Database</div>
       <div class="col-right"><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-on"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span><span class="skill-icon skill-off"></span></div>
     </div>
   </div>
