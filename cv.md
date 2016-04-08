@@ -26,12 +26,8 @@ permalink: cv.html
   }
   .section-skills .col-right {
     font-size: 1.2em;
-  }
-  .section-skills .icon.icon-skill {
+    font-family: 'icomoon' !important;
     color: #2C82C9;
-  }
-  .section-skills .icon.icon-skill:before {
-    content: "\e9b5";
   }
 </style>
 
@@ -66,34 +62,15 @@ permalink: cv.html
   <div class="section-table section-skills">
     <div class="section-row">
       <div class="col-left">HTML / CSS</div>
-      <div class="col-right">
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-      </div>
+      <div class="col-right">lightning lightning lightning lightning lightning lightning lightning</div>
     </div>
     <div class="section-row">
       <div class="col-left">JavaScript</div>
-      <div class="col-right">
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-      </div>
+      <div class="col-right">lightning lightning lightning lightning</div>
     </div>
     <div class="section-row">
       <div class="col-left">Perl</div>
-      <div class="col-right">
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-          <span class="icon icon-skill"></span>
-      </div>
+      <div class="col-right">lightning lightning lightning</div>
     </div>
   </div>
   <h2 id="section-4" class="section-heading" style="color: #CD6B97">Interests</h2>
