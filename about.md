@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "关于"
+permalink: about.html
 image: http://myanbin.github.io/public/img/sunset.jpg
 order: 6
 ---
