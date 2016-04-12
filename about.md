@@ -38,4 +38,4 @@ order: 6
 
 ### 联系我
 
-欢迎关注我的微博 [@孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [ma.yanbin@qq.com](mailto:ma.yanbin@qq.com) 与我取得联系。
+欢迎关注我的微博 [@孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [yianbin@gmail.com](mailto:yianbin@gmail.com) 与我联系。
