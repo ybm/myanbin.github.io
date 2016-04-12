@@ -3,13 +3,10 @@ if (navigator.platform == "Win32") {
     var cssId = 'webkit-scrollbar';
     if (!document.getElementById(cssId)) {
         var head  = document.getElementsByTagName('head')[0];
-        var link  = document.createElement('link');
-        link.id   = cssId;
-        link.rel  = 'stylesheet';
-        link.type = 'text/css';
-        link.href = '{{ site.baseurl }}/public/css/webkit-scrollbar.css';
-        link.media = 'all';
-        head.appendChild(link);
+        var style  = document.createElement('style');
+        style.id   = cssId;
+        style.innerText = '::-webkit-scrollbar { width: 6px; height: 6px; background-color: #fff; } ::-webkit-scrollbar-track { background-color: #fff; } ::-webkit-scrollbar-thumb { background-color: #ccc; border: 1px solid #ddd; }';
+        head.appendChild(style);
     }
 }
 </script>

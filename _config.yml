@@ -36,7 +36,11 @@ author:
 
 
 compress_html:
-  clippings: all
-  comments: ["<!--", "-->"]
-  endings: all
-  startings: [html, head, body]
+  clippings:      all
+  comments:       ["<!--", "-->"]
+  endings:        all
+  startings:      [html, head, body]
+
+sass:
+  sass_dir:       /public/css
+  style:          compressed
