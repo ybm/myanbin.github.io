@@ -55,11 +55,11 @@ myblog
 |---_layouts
 |---_posts
 |---public
-|	|---css
-|	|	|---highlight.scss
-|	|	|---hyde.scss
-|	|	|---poole.scss
-|	|	|---styles.scss
+|   |---css
+|   |   |---highlight.scss
+|   |   |---hyde.scss
+|   |   |---poole.scss
+|   |   |---styles.scss
 |---_config.yml
 |---index.html
 ~~~
@@ -67,7 +67,7 @@ myblog
 
 在 `styles.scss`， 中，使用 `@import` 语句导入其他的 Sass 文件，这样最终 Jekyll 在编译 Sass 的时候便会将其合并为一个 CSS 文件。注意，需要在文件顶部加入 [Front Matter](https://jekyllrb.com/docs/frontmatter/) 块，否则会报错：
 
-~~~yaml
+~~~sass
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
