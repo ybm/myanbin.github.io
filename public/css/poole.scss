@@ -338,6 +338,12 @@ tbody tr:nth-child(odd) th {
   color: #9a9a9a;
 }
 
+/* Content that align center, for example img */
+.center {
+  display: block;
+  margin: auto;
+}
+
 /* Related posts */
 .related {
   padding-top: 2rem;
@@ -354,6 +360,7 @@ tbody tr:nth-child(odd) th {
 .related-posts li small {
   font-size: 75%;
   color: #999;
+  font-weight: normal;
   /* Keep the date time together */
   white-space: nowrap;
 }
