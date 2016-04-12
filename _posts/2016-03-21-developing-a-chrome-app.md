@@ -3,7 +3,7 @@ layout: post
 title: '如何开发一个 Chrome App'
 ---
 
-2008 年，Goole 开发一款全新的基于 WebKit 内核的网络浏览器 Chrome，如今已经占有全球 58% 的市场份额。而运行于 Chrome 浏览器之上的 [Chrome App](https://developer.chrome.com/apps/about_apps)，是一个由 HTML、CSS 和 JavaScript 构成的应用程序，使用起来与操作系统的本地应用程序并无二致。本文通过编写一个简单的时钟应用，来讲解如何开发一个 Chrome App。
+2008 年，Google 开发一款全新的基于 WebKit 内核的网络浏览器 Chrome，如今已经占有全球 58% 的市场份额。而运行于 Chrome 浏览器之上的 [Chrome App](https://developer.chrome.com/apps/about_apps)，是一个由 HTML、CSS 和 JavaScript 构成的应用程序，使用起来与操作系统的本地应用程序并无二致。本文通过编写一个简单的时钟应用，来讲解如何开发一个 Chrome App。
 
 ### 第一步、创建 manifest 文件
 
@@ -61,9 +61,9 @@ chrome.app.runtime.onLuanched.addListener(function () {
 
 ### 第三步、创建一个窗口页
 
-创建 `index.html` 文件作为 App 的 window 页面，代码如下所示。需要注意的是，由于 Chrome 的安全机制，JavaScript 代码不能直接写在 HTML文件中，必须通过 `<script src="js/clock.js">` 的方式引入。
+创建 `index.html` 文件作为 App 的 window 页面，代码如下所示。需要注意的是，由于 Chrome 的安全机制，JavaScript 代码不能直接写在 HTML文件中，必须通过 `<script src="js/clock.js"></script>` 的方式引入。
 
-~~~text
+~~~
 <!doctype html>
 <html>
 <head>
@@ -77,7 +77,7 @@ chrome.app.runtime.onLuanched.addListener(function () {
         <span id="mm"></span>:
         <span id="ss"></span>
     </div>
-    <script src="js/clock.js">
+    <script src="js/clock.js"><script>
 </body>
 </html>
 ~~~
@@ -103,6 +103,6 @@ chrome.app.runtime.onLuanched.addListener(function () {
 
 ### 第六步、启动运行
 
-首先，需要打开「扩展程序」页面（地址为 `chrome://extensions`），确定「开发者模式」为选中状态。然后点击「加载已解压的扩展程序」，选择项目的目录并点「确定」按钮。
+首先，需要打开「扩展程序」页面（地址为 `chrome://extensions`），确定「开发者模式」为选中状态。然后点击「加载已解压的扩展程序」，选择本项目的目录并点「确定」按钮。
 
 当加载完成后，打开一个新标签并点击时钟应用的图标，便可以启动我们开发的 Chrome App。
