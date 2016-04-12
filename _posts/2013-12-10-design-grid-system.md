@@ -12,7 +12,7 @@ title: '如何设计一个简单的栅格系统'
 
 我定义了三种类型的屏幕：手机屏幕、平板屏幕和桌面屏幕。而下面的代码使得，浏览器会根据自身的宽度而使用不同值的 `container` 的宽度：
 
-{% highlight css %}
+~~~css
 @media all and (min-width: 800px) {
     .container {
         width: 770px;
@@ -30,21 +30,21 @@ title: '如何设计一个简单的栅格系统'
         width: 1170px;
     }
 }
-{% endhighlight %}
+~~~
 
 `row` 是处于 `container` 与 `col` 之间的一个过渡容器。这样使得在一个 `container` 中可以同时包含多个分栏。同时，`row` 可以有效的消除容器左右两端 `15px` 的误差。
 
-{% highlight css %}
+~~~css
 .row {
     margin: 0 -15px;
 }
-{% endhighlight %}
+~~~
 
 ### 将 row 分为六栏
 
 对于平板屏幕和桌面屏幕，我们将 `row` 平均分为六栏，它们要并排排列。如果是手机屏幕的话，这六栏将会按照顺序向下堆叠。
 
-{% highlight css %}
+~~~css
 @media all and (min-width: 800px) {
     .col-1,
     .col-2,
@@ -73,13 +73,13 @@ title: '如何设计一个简单的栅格系统'
         width: 16.666667%
     }
 }
-{% endhighlight %}
+~~~
 
 ### 清除浮动
 
 在上面的分栏中，我们使用了 `float` 进行浮动布局，所以在必要的地方，我们要对其清除，使得 `col` 处于父容器 `row` 的包裹之中。
 
-{% highlight css %}
+~~~css
 .container:before,
 .container:after {
     display: table;
@@ -99,13 +99,13 @@ title: '如何设计一个简单的栅格系统'
 .row:after {
     clear: both;
 }
-{% endhighlight %}
+~~~
 
 ### 设置边距
 
 处理栅格系统的边距是一件比较复杂的工作。首先，我们将容器的 `bos-sizing` 设置为 `border-box`，这样当我们指定容器的宽度时，它将包含 `padding` 及 `border`。然后，将 `col` 左右的 `padding` 定义为 `15px`，这样，相邻两列之间的边距将会变为 `30px`。
 
-{% highlight css %}
+~~~css
 .container {
     -moz-box-sizing: border-box;
          box-sizing: border-box;
@@ -125,7 +125,7 @@ title: '如何设计一个简单的栅格系统'
     min-height: 1px;
     padding: 0 15px;
 }
-{% endhighlight %}
+~~~
 
 ### 获取源代码
 

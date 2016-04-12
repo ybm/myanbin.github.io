@@ -13,10 +13,8 @@ title: "主页"
   {% endif %}
   <li>
     <h4>
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        <span>{{ post.title }}</span>
-        <small>{{ post.date | date: "%m/%d" }}</small>
-      </a>
+      <a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title }}</span></a>
+      <small>{{ post.date | date: "%m/%d" }}</small>
     </h4>
   </li>
   {% if forloop.last %}</ul><hr/>{% endif %}
@@ -42,18 +40,18 @@ title: "主页"
 
 <div class="pagination">
   {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
+    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">之前的</a>
   {% else %}
-    <span class="pagination-item older">Older</span>
+    <span class="pagination-item older">之前的</span>
   {% endif %}
   {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}">最近的</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
+      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">最近的</a>
     {% endif %}
   {% else %}
-    <span class="pagination-item newer">Newer</span>
+    <span class="pagination-item newer">最近的</span>
   {% endif %}
 </div>
 -->

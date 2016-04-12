@@ -25,14 +25,12 @@ layout: default
     {% endif %}
     <li>
       <h4>
-        <a href="{{ post.url | prepend:site.baseurl }}">
-          <span>{{ post.title }}</span>
-          <small>{{ post.date | date: "%m/%d" }}</small>
-        </a>
+        <a href="{{ post.url | prepend:site.baseurl }}"><span>{{ post.title }}</span></a>
+        <small>{{ post.date | date: "%m/%d" }}</small>
       </h4>
     </li>
     {% if forloop.last %}</ul><hr/>{% endif %}
   {% endfor %}
 {% else %}
-    <p>There are no posts for this tag.</p>
+    <p>此标签下暂无文章</p>
 {% endif %}
