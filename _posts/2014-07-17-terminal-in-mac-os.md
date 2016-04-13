@@ -23,7 +23,7 @@ title: 'Mac OS X 下终端的配置'
 
 然后打开 iTerm2 的偏好设置（快捷键为 <kbd>Cmd</kbd> + <kbd>,</kbd>），找到 Profiles / Colors，在最下面的 Load Presets ... / Import... 加载下载好的 iterm2-colors-solarized/Solarized Dark.itermcolors 配色方案。
 
-![选择 iTerm2 配色方案](http://yianbin.qiniudn.com/blog!iterm-preference.jpg)
+![选择 iTerm2 配色方案](http://yianbin.qiniudn.com/blog!iterm-preference.jpg){:.center}
 
 ### 三、安装 oh-my-zsh
 
@@ -32,7 +32,7 @@ Mac OS X 系统自带 zsh，可以用 `zsh --version` 命令来查看你的 zsh 
 oh-my-zsh 是一个被称为「终极 zsh 配置」的东西。在 iTerm2 中输入以下命令用来安装 oh-my-zsh：
 
 ~~~sh
-wget --no-check-certificate http://install.ohmyz.sh -O - | sh
+~ $ wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 ~~~
 
 安装好之后，打开 Home 目录下的 `.zshrc` 文件，定位到 `ZSH_THEME="..."` 一行修改主题，oh-my-zsh 有超过一百个 zsh 默认主题（一个主题预览网站：http://zshthem.es/all/ ），选择你喜欢的主题吧。
