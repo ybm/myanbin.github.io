@@ -53,6 +53,7 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 
 #### 2、iTerm2 终端常用快捷键
 
+下面的表格是一些能够提高效率的 iTerm2 和 zsh 快捷键：
 
 | 快捷键                                           | 用途                                           |
 |--------------------------------------------------|------------------------------------------------|
@@ -70,3 +71,5 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 | <kbd>Ctrl</kbd> + <kbd>P</kbd>                   | 从历史命令列表中取上一条命令，相当于向上方向键 |
 | <kbd>Ctrl</kbd> + <kbd>L</kbd>                   | 清屏                                           |
 | <kbd>Ctrl</kbd> + <kbd>D</kbd>                   | 关闭当前的终端会话                             |
+
+（本文写于杭州阿里实习期间）
