@@ -53,18 +53,20 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 
 #### 2、iTerm2 终端常用快捷键
 
-* <kbd>Cmd</kbd> + <kbd>T</kbd> ：新建标签页
-* <kbd>Cmd</kbd> + <kbd>D</kbd> ：水平分割窗口
-* <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> ：垂直分割窗口
-* <kbd>Ctrl</kbd> + <kbd>A</kbd> / <kbd>E</kbd> ：将光标移至行首/行尾
-* <kbd>Ctrl</kbd> + <kbd>B</kbd> / <kbd>F</kbd> ：将光标向左/向右移动一个字符
-* <kbd>Alt</kbd> + <kbd>B</kbd> / <kbd>F</kbd> ：将光标向左/向右移动一个单词
-* <kbd>Ctrl</kbd> + <kbd>A</kbd> / <kbd>E</kbd> ：将光标移至行首/行尾
-* <kbd>Ctrl</kbd> + <kbd>K</kbd> ：删除当前光标到行尾的字符
-* <kbd>Ctrl</kbd> + <kbd>U</kbd> ：删除当前光标到行首的字符
-* <kbd>Ctrl</kbd> + <kbd>W</kbd> ：向前删除一个单词
-* <kbd>Ctrl</kbd> + <kbd>R</kbd> ：搜索历史命令列表
-* <kbd>Ctrl</kbd> + <kbd>P</kbd> ：从历史命令列表中取上一条命令，相当于向上方向键
-* <kbd>Ctrl</kbd> + <kbd>N</kbd> ：从历史命令列表中取下一条命令，相当于向下方向键
-* <kbd>Ctrl</kbd> + <kbd>L</kbd> ：清屏
-* <kbd>Ctrl</kbd> + <kbd>D</kbd> ：关闭当前的终端会话
+
+| 快捷键                                           | 用途                                           |
+|--------------------------------------------------|------------------------------------------------|
+| <kbd>Cmd</kbd> + <kbd>T</kbd>                    | 新建标签页                                     |
+| <kbd>Cmd</kbd> + <kbd>D</kbd>                    | 水平分割窗口                                   |
+| <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>D</kbd> | 垂直分割窗口                                   |
+| <kbd>Ctrl</kbd> + <kbd>A</kbd> / <kbd>E</kbd>    | 将光标移至行首/行尾                            |
+| <kbd>Ctrl</kbd> + <kbd>B</kbd> / <kbd>F</kbd>    | 将光标向左/向右移动一个字符                    |
+| <kbd>Alt</kbd> + <kbd>B</kbd> / <kbd>F</kbd>     | 将光标向左/向右移动一个单词                    |
+| <kbd>Ctrl</kbd> + <kbd>K</kbd>                   | 删除当前光标到行尾的字符                       |
+| <kbd>Ctrl</kbd> + <kbd>U</kbd>                   | 删除当前光标到行首的字符                       |
+| <kbd>Ctrl</kbd> + <kbd>W</kbd>                   | 向前删除一个单词                               |
+| <kbd>Ctrl</kbd> + <kbd>R</kbd>                   | 搜索历史命令列表                               |
+| <kbd>Ctrl</kbd> + <kbd>N</kbd>                   | 从历史命令列表中取下一条命令，相当于向下方向键 |
+| <kbd>Ctrl</kbd> + <kbd>P</kbd>                   | 从历史命令列表中取上一条命令，相当于向上方向键 |
+| <kbd>Ctrl</kbd> + <kbd>L</kbd>                   | 清屏                                           |
+| <kbd>Ctrl</kbd> + <kbd>D</kbd>                   | 关闭当前的终端会话                             |
