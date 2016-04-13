@@ -32,7 +32,7 @@ Mac OS X 系统自带 zsh，可以用 `zsh --version` 命令来查看你的 zsh 
 oh-my-zsh 是一个被称为「终极 zsh 配置」的东西。在 iTerm2 中输入以下命令用来安装 oh-my-zsh：
 
 ~~~sh
-`wget --no-check-certificate http://install.ohmyz.sh -O - | sh` 
+wget --no-check-certificate http://install.ohmyz.sh -O - | sh
 ~~~
 
 安装好之后，打开 Home 目录下的 `.zshrc` 文件，定位到 `ZSH_THEME="..."` 一行修改主题，oh-my-zsh 有超过一百个 zsh 默认主题（一个主题预览网站：http://zshthem.es/all/ ），选择你喜欢的主题吧。
