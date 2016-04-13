@@ -3,6 +3,7 @@ layout: post
 title: '数据结构中的栈和队列'
 ---
 
+
 这篇文章浅显的介绍了在数据结构中如何定义栈和队列的抽象数据类型（Abstract Data Type），以及基于这种抽象数据类型的一些操作：入栈，出栈，取栈顶元素，入队，出队，取队首元素和队尾元素等。
 
 ### 一、引言
@@ -126,8 +127,8 @@ int deQueue(Queue &Q, char &dataOut)
     LinkQueue deleteLoc;
     if (Q.count == 0)
         return 0;
-    dataOut=Q.front->data;
-    deleteLoc=Q.front;
+    dataOut = Q.front->data;
+    deleteLoc = Q.front;
     if (Q.count == 1)
         Q.rear = NULL;
     Q.front = Q.front->next;
