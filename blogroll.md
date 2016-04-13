@@ -16,8 +16,9 @@ order: 5
 </style>
 
 
-海内存知己，天涯若比邻。{:.lead}
+海内存知己，天涯若比邻。
+{:.lead}
 
-
+* [Amy's Blog](http://banyaner.github.io/)
 
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)

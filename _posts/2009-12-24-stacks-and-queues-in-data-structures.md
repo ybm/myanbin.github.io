@@ -26,13 +26,13 @@ title: '数据结构中的栈和队列'
 ![栈的链式描述](http://7nj1q2.com1.z0.glb.clouddn.com/stack.jpg){:.center}
 
 ~~~cpp
-typedef struct SNode    //stack node structure
+typedef struct SNode    // 栈的节点结构
 {
     char data;
     struct SNode *next;
 } SNode, *LinkStack;
 
-typedef struct          //stack head structure
+typedef struct          // 栈的表头结构
 {
     int count;
     struct SNode *top;
@@ -113,9 +113,9 @@ int enQueue(Queue &Q, char dataIn)
     newPtr = (LinkQueue)malloc(sizeof(QNode));
     newPtr->data = dataIn;
     newPtr->next = NULL;
-    if (Q.count == 0)      //inserting into null queue
+    if (Q.count == 0)   // 向空队列中插入时
         Q.front = newPtr;
-    else                //inserting data and adjust metadata
+    else                // 插入一条数据并且更新表头信息
         Q.rear->next = newPtr;
     Q.rear = newPtr;
     Q.count++;
