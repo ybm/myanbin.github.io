@@ -72,11 +72,7 @@ chrome.app.runtime.onLuanched.addListener(function () {
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <div id="clock">
-        <span id="hh"></span>:
-        <span id="mm"></span>:
-        <span id="ss"></span>
-    </div>
+    <div id="clock"></div>
     <script src="js/clock.js"><script>
 </body>
 </html>
@@ -94,6 +90,27 @@ chrome.app.runtime.onLuanched.addListener(function () {
     font-size: 42px;
     text-align: center;
 }
+~~~
+
+对应的 JavaScript 代码如下：
+
+~~~js
+function myClock(el) {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+
+    m = (m >= 10) ? m : ('0' + m);
+    s = (s >= 10) ? s : ('0' + s);
+    el.innerHTML = h + ": " + m + ": " + s;
+    setTimeOut(function () {
+        myClock(el)
+    }, 500);
+}
+
+var clock = document.getElementById('clock');
+myClock(clock);
 ~~~
 
 
