@@ -16,5 +16,8 @@ order: 5
 </style>
 
 
+海内存知己，天涯若比邻。{:.lead}
+
+
 
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
