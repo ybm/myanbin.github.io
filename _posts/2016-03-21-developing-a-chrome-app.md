@@ -63,7 +63,7 @@ chrome.app.runtime.onLuanched.addListener(function () {
 
 创建 `index.html` 文件作为 App 的 window 页面，代码如下所示。需要注意的是，由于 Chrome 的安全机制，JavaScript 代码不能直接写在 HTML文件中，必须通过 `<script src="js/clock.js"></script>` 的方式引入。
 
-~~~
+{% highlight html %}
 <!doctype html>
 <html>
 <head>
@@ -80,7 +80,7 @@ chrome.app.runtime.onLuanched.addListener(function () {
     <script src="js/clock.js"><script>
 </body>
 </html>
-~~~
+{% endhighlight %}
 
 ### 第四步、添加 CSS 样式和 JS 逻辑
 
@@ -103,6 +103,6 @@ chrome.app.runtime.onLuanched.addListener(function () {
 
 ### 第六步、启动运行
 
-首先，需要打开「扩展程序」页面（地址为 `chrome://extensions`），确定「开发者模式」为选中状态。然后点击「加载已解压的扩展程序」，选择本项目的目录并点「确定」按钮。
+首先，需要打开「扩展程序」页面，确定「开发者模式」为选中状态。然后点击「加载已解压的扩展程序」，选择本项目的目录并点「确定」按钮。
 
 当加载完成后，打开一个新标签并点击时钟应用的图标，便可以启动我们开发的 Chrome App。

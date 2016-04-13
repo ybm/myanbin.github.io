@@ -142,6 +142,16 @@ figure {
   margin: 0;
 }
 
+/* Keyboard */
+kbd {
+  padding: .1em .45em;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  font-family: Menlo, Monaco, "Source Code Pro", Consolas, "Microsoft Yahei", monospace;
+  font-size: .9rem;
+}
+
 /* Code */
 code,
 pre {
@@ -149,12 +159,11 @@ pre {
 }
 code {
   padding: .25em .5em;
-  font-size: .95rem;
   /* Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code. */
   /*color: #bf616a;*/
   background-color: #f9f9f9;
   border-radius: 3px;
-  font-size: .85rem;
+  font-size: .9rem;
 }
 pre {
   display: block;
