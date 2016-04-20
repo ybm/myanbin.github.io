@@ -1,4 +1,11 @@
 <head>
+  {% if site.ssl_url %}
+  <script>
+    var host = '{% site.ssl_url %}';
+    if ((host == window.location.host) && (window.location.protocol != 'https:'))
+      window.location = window.location.toString().replace(/^http:/, 'https:');
+  </script>
+  {% endif %}
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 

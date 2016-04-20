@@ -2,7 +2,7 @@
 permalink:        /posts/:title.html
 
 # Setup
-url:              http://myanbin.github.io
+ssl_url:          myanbin.github.io
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
 baseurl:          ''
