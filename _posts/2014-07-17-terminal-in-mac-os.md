@@ -23,7 +23,7 @@ title: 'Mac OS X 下终端的配置'
 
 然后打开 iTerm2 的偏好设置（快捷键为 <kbd>Cmd</kbd> + <kbd>,</kbd>），找到 Profiles / Colors，在最下面的 Load Presets ... / Import... 加载下载好的 iterm2-colors-solarized/Solarized Dark.itermcolors 配色方案。
 
-![选择 iTerm2 配色方案](//yianbin.qiniudn.com/blog!iterm-preference.jpg){:.center}
+![选择 iTerm2 配色方案](http://yianbin.qiniudn.com/blog!iterm-preference.jpg){:.center}
 
 ### 三、安装 oh-my-zsh
 
@@ -49,7 +49,7 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 
 最终效果如下：
 
-![Mac OS 下终端的最终效果](//yianbin.qiniudn.com/blog!mac-os-terminal.jpg){:.center}
+![Mac OS 下终端的最终效果](http://yianbin.qiniudn.com/blog!mac-os-terminal.jpg){:.center}
 
 #### 2、iTerm2 终端常用快捷键
 
