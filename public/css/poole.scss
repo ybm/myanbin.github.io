@@ -46,7 +46,7 @@ html {
 }
 
 body {
-  color: #515151;
+  color: #000;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
@@ -67,7 +67,8 @@ a strong {
 /* `:focus` is linked to `:hover` for basic accessibility */
 a:hover,
 a:focus {
-  text-decoration: underline;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 /* Headings */
