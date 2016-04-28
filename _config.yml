@@ -22,7 +22,7 @@ analytics:        'UA-35742418-1'
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/green.jpg
-color:            '#A85641'
+color:            '#f34b7d'
 
 author:
   name:           '饮冰先生'
