@@ -297,6 +297,7 @@ tbody tr:nth-child(odd) th {
 
 .content a:focus,
 .content a:hover {
+  text-decoration: none;
   border-bottom: 1px solid;
 }
 
