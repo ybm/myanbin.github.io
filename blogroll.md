@@ -3,7 +3,6 @@ layout: page
 title: "友链"
 permalink: blogroll.html
 image: /public/img/shinkansen.jpg
-color: #00e
 order: 5
 ---
 
