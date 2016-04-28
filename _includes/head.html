@@ -1,7 +1,7 @@
 <head>
   {% if site.ssl_url %}
   <script>
-    var host = '{% site.ssl_url %}';
+    var host = '{{ site.ssl_url }}';
     if ((host == window.location.host) && (window.location.protocol != 'https:'))
       window.location = window.location.toString().replace(/^http:/, 'https:');
   </script>
