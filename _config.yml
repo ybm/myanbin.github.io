@@ -2,7 +2,7 @@
 permalink:        /posts/:title.html
 
 # Setup
-# url:              //myanbin.github.io
+url:              //myanbin.github.io
 ssl_url:          myanbin.github.io
 
 # Set to '' in case of hosting on `http://<your-github-name>.github.io`
@@ -30,7 +30,7 @@ author:
   github:         myanbin
   linkedin:       myanbin
   weibo:          yianbin
-  photo:          //7nj1q2.com1.z0.glb.clouddn.com/blog!me.jpg
+  photo:          /public/img/me.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
