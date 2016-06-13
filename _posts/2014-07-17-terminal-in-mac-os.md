@@ -9,11 +9,11 @@ title: 'Mac OS X 下终端的配置'
 * Solarized
 * oh-my-zsh
 
-### 一、使用 iTerm2 代替默认终端
+## 一、使用 iTerm2 代替默认终端
 
 都说自带的终端不好用，何不试试 [iTerm2](https://www.iterm2.com/)？
 
-### 二、配置 iTerm2 的配色
+## 二、配置 iTerm2 的配色
 
 先通过下面命令下载 Solarized 配色文件：
 
@@ -24,10 +24,10 @@ title: 'Mac OS X 下终端的配置'
 然后打开 iTerm2 的偏好设置（快捷键为 <kbd>Cmd</kbd> + <kbd>,</kbd>），找到 Profiles / Colors，在最下面的 Load Presets ... / Import... 加载下载好的 iterm2-colors-solarized/Solarized Dark.itermcolors 配色方案。
 
 
-![选择 iTerm2 配色方案](https://ooo.0o0.ooo/2016/04/28/5721e0ba6f396.jpg){:.center}
+![选择 iTerm2 配色方案](https://infp.github.io/blogimages/iterm.jpg){:.center}
 
 
-### 三、安装 oh-my-zsh
+## 三、安装 oh-my-zsh
 
 Mac OS X 系统自带 zsh，可以用 `zsh --version` 命令来查看你的 zsh 版本。
 
@@ -39,9 +39,9 @@ oh-my-zsh 是一个被称为「终极 zsh 配置」的东西。在 iTerm2 中输
 
 安装好之后，打开 Home 目录下的 `.zshrc` 文件，定位到 `ZSH_THEME="..."` 一行修改主题，oh-my-zsh 有超过一百个 zsh 默认主题（一个主题预览网站：http://zshthem.es/all/ ），选择你喜欢的主题吧。
 
-### 四、其他配置
+## 四、其他配置
 
-#### 1、让 ls 显示彩色的输出
+### 1、让 ls 显示彩色的输出
 
 在 .zshrc 文件末尾加入下面代码：
 
@@ -52,10 +52,10 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 最终效果如下：
 
 
-![Mac OS 下终端的最终效果](https://ooo.0o0.ooo/2016/04/28/5721e0baa521d.jpg){:.center}
+![Mac OS 下终端的最终效果](https:/infp.github.io/blogimages/terminal.jpg){:.center}
 
 
-#### 2、iTerm2 终端常用快捷键
+### 2、iTerm2 终端常用快捷键
 
 下面的表格是一些能够提高效率的 iTerm2 和 zsh 快捷键：
 
