@@ -52,7 +52,7 @@ export LSCOLORS=exfxcxdxbxegedabagacad
 最终效果如下：
 
 
-![Mac OS 下终端的最终效果](https:/infp.github.io/blogimages/terminal.jpg){:.center}
+![Mac OS 下终端的最终效果](https://infp.github.io/blogimages/terminal.jpg){:.center}
 
 
 ### 2、iTerm2 终端常用快捷键
