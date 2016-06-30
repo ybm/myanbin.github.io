@@ -11,10 +11,10 @@ Jekyll 是用 Ruby 开发的一个静态站点生成器，它会根据网页源�
 
 
 ~~~sh
-[ybm@mbp ~] $ gem install jekyll
-[ybm@mbp ~] $ jekyll new myblog
-[ybm@mbp ~] $ cd myblog
-[ybm@mbp ~/myblog] $ jekyll server
+$ gem install jekyll
+$ jekyll new myblog
+$ cd myblog
+$ jekyll server
 # => Now browse to http://localhost:4000
 ~~~
 
