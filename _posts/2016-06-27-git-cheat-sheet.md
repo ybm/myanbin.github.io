@@ -97,9 +97,13 @@ Changes to be committed:
 $ git commit -m "first commit"
 ~~~
 
-现在，改动已经提交到了本地仓库的 HEAD，但是还没有到远程仓库。
+现在，改动已经提交到了本地仓库的 HEAD，但是还没有到远程仓库。继续执行:
 
-执行 `git push origin master`，便可以把这些改动提交到远程仓库的 master 分支上。
+~~~sh
+$ git push origin master
+~~~
+
+便可以把这些改动推送到远程仓库的 master 分支上。
 
 
 ## 六、撤销操作
@@ -114,6 +118,7 @@ $ git commit --amend -m "second commit"
 
 ## 七、分支和 Git 工作流
 
+Git 鼓励在工作流程中频繁地使用分支和合并，甚至是一天之内进行多次。
 
 ## 八、查看日志
 
@@ -125,7 +130,7 @@ $ git commit --amend -m "second commit"
 |-------------------|-------------------|
 | `-p`              | 按补丁格式显示每个更新之间的差异   |
 | `--stat`          | 显示每次更新的文件修改统计信息   |
-| `abbrev-commit`   | 仅显示 SHA-1 的前几个字符，而非所有的 40 个字符   |
+| `--abbrev-commit` | 仅显示 SHA-1 的前几个字符，而非所有的 40 个字符   |
 | `--graph`         | 显示 ASCII 图形表示的分支合并历史   |
 | `--pretty`        | 使用其他格式显示历史提交信息，如 format   |
 | `-<n>`            | 仅显示最近的 n 条提交   |
@@ -139,3 +144,30 @@ $ git commit --amend -m "second commit"
 ~~~sh
 git log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen (%cr) %C(blue)<%an>%Creset' --abbrev-commit
 ~~~
+
+
+## 九、打标签
+
+Git 可以给历史中的某一个提交打上标签，以示重要。想要列出 Git 中的所有标签，只需输入：
+
+~~~sh
+$ git tag
+v0.1
+v0.9
+v1.0
+~~~
+
+Git 可以创建两种不同类型的标签：轻量标签（lightweight）与附注标签（annotated）。用法如下：
+
+~~~sh
+$ git tag v1.8
+$ git tag -a v2.0 -m "public version"
+~~~
+
+目前为止，我们所打的标签只在本次仓库中。如果想要与其他人共享这些标签，可以使用如下命令：
+
+~~~sh
+$ git push origin v2.0
+~~~
+
+当其他人从仓库中克隆或拉取时，便能得到这些标签。
