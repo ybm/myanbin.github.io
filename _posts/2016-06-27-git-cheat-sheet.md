@@ -7,13 +7,13 @@ title: '我的开发日常 Git 命令清单'
 从 2011 年开始接触 Git 到现在，我的使用时间不算太短，但是却只限于 `git add`、`git commit`、`git push` 这几个简单命令。最近因为工作需要，我将 [Pro Git](https://git-scm.com/book/zh/v2) 通读了一遍，故写此篇。
 
 
-## 一、前言
+## 前言
 
 ![Git 工作流](https://infp.github.io/blogimages/git-status.png){:.center}
 
 Git 是一个分布式的版本控制系统，是指 Git 的远程仓库（Remote）和本地仓库（Repository）具有同等的地位，保存了代码的所有历史记录。上面的图来自阮一峰的[博客](http://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)，表示在 Git 的各个状态间相互切换的命令。
 
-## 二、创建代码仓库
+## 创建代码仓库
 
 有两种方法来建立 Git 代码仓库。第一种是在现有目录下直接生成：
 
@@ -27,7 +27,7 @@ $ git init
 $ git clone https://github.com/myanbin/jsterm.git
 ~~~
 
-## 三、配置 Git
+## 配置 Git
 
 在初次运行 Git 前，需要配置一下用户信息和编辑器偏好：
 
@@ -56,7 +56,7 @@ $ git config --global alias.st status
 这样，当要输入 `git status` 时，只需要输入 `git st` 即可。
 
 
-## 四、添加
+## 添加
 
 本地的代码仓库由 Git 维护的三颗 Tree 组成。第一个是工作目录（Workspace），它持有实际的文件；第二个是暂存区（Index/Stage），它像一个缓存区，临时保存即将要提交的改动；第三个是代码仓库（Repository），它有一个 HEAD 指针，用于指向你最后一次提交的结果。
 
@@ -89,7 +89,7 @@ Changes to be committed:
 其实在 Git 中，每次运行 `git add <filename>` 时，便会计算该文件的 SHA-1 哈希值作为本次改动的唯一标识。
 
 
-## 五、提交和推送
+## 提交和推送
 
 在完成上一步的添加之后，使用如下命令以便将本次修改动永久记录下来：
 
@@ -106,7 +106,7 @@ $ git push origin master
 便可以把这些改动推送到远程仓库的 master 分支上。
 
 
-## 六、撤销操作
+## 撤销操作
 
 有时候当提交完后发现漏掉几个文件没有添加，或者提交信息写错时，可以使用带有 `--amend` 选项的提交明亮重新提交：
 
@@ -116,11 +116,11 @@ $ git add forgotten_file
 $ git commit --amend -m "second commit"
 ~~~
 
-## 七、分支和 Git 工作流
+## 分支和 Git 工作流
 
 Git 鼓励在工作流程中频繁地使用分支和合并，甚至是一天之内进行多次。
 
-## 八、查看日志
+## 查看日志
 
 使用 `git log` 命令可以查看代码的提交历史，不带任何参数的话，它会列出每个提交的 SHA-1 校验和、作者的名字和邮箱地址、提交时间以及提交说明。
 
@@ -146,7 +146,7 @@ git log --graph --pretty=format:'%Cred%h%Creset - %C(yellow)%d%Creset %s %Cgreen
 ~~~
 
 
-## 九、打标签
+## 打标签
 
 Git 可以给历史中的某一个提交打上标签，以示重要。想要列出 Git 中的所有标签，只需输入：
 
