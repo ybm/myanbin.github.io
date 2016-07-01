@@ -4,7 +4,9 @@ title: '仿 Stack Overflow 的问答网站'
 ---
 
 
-随着社交化问答网站 Quora 的流行，现在正在经历着一场问答网站的热潮。Stack Overflow 一个国外著名的程序员问答网站，它使用独特的投票系统、积分系统以及勋章系统，展现出一个新型的专业类问答网站。本文讲述了如何使用 PHP 和 MySQL开发一个模仿 Stack Overflow 的程序员问答网站
+随着社交化问答网站 Quora 的流行，现在正在经历着一场问答网站的热潮。Stack Overflow 一个国外著名的程序员问答网站，它使用独特的投票系统、积分系统以及勋章系统，展现出一个新型的专业类问答网站。
+
+本文讲述了如何使用 PHP 和 MySQL开发一个模仿 Stack Overflow 的程序员问答网站。
 
 
 ## 总体设计
@@ -17,20 +19,26 @@ title: '仿 Stack Overflow 的问答网站'
 
 ![数据库 Scheme 图](https://infp.github.io/blogimages/qwench-db.png){:.center}
 
+问题和回答分别存储于 questions 和 answers 两个表中，并分别设置用于记录用户投票记录的 questions\_votes 和 answers\_votes。
+
 
 ## 编码实现
 
-本网站主要实现了用户的注册和登录、提问与回答、搜索、投票系统和积分系统等功能。下面分别进行介绍：
+本网站主要实现了用户的注册和登录、提问与回答、搜索、投票系统和积分系统等功能。
 
-### 首页
+### 前端页面
+
+本网站采用了和 Stack Overflow 一样的布局和设计，简单而直观。下面是网站的部分截图：
+
+#### 首页
 
 ![网站首页](https://infp.github.io/blogimages/qwench-home.png){:.center}
 
-### 用户
+#### 用户
 
 ![网站个人用户页](https://infp.github.io/blogimages/qwench-profile.png){:.center}
 
-### 问答
+#### 问答
 
 ![网站问题详情页](https://infp.github.io/blogimages/qwench-question.png){:.center}
 
@@ -40,6 +48,13 @@ title: '仿 Stack Overflow 的问答网站'
 
 * WMD：一个 JavaScript 编写的 Markdown 编辑器
 * prettify：一个 JavaScript 开发的代码高亮工具
+
+#### 网站优化
+
+本项目采用了以下优化措施，减少了 HTTP 请求：
+
+* 使用 CSS Sprite 进行图片处理
+* 压缩 JavaScript 和 CSS 代码
 
 
 ## 展望
