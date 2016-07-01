@@ -49,7 +49,7 @@ title: '仿 Stack Overflow 的问答网站'
 * WMD：一个 JavaScript 编写的 Markdown 编辑器
 * prettify：一个 JavaScript 开发的代码高亮工具
 
-#### 网站优化
+### 网站优化
 
 本项目采用了以下优化措施，减少了 HTTP 请求：
 
