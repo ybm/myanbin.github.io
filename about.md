@@ -17,9 +17,9 @@ order: 6
 {% endif %}
 
 
-我是**饮冰先生**，15 年毕业于北京邮电大学计算机专业，目前居住于中国北京。我喜爱阅读和探索身边事物，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
+我是饮冰先生，15 年毕业于北京邮电大学计算机专业，目前居住于中国北京，从事 IT。我喜爱阅读、美食和电影，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
 
-我目前从事 Web 前端的工作，这里是[我的简历]({{ site.baseurl }}/download/cv-ybm.pdf)。
+我目前从事 Web 前端的工作，这里是[我的简历]({{ site.baseurl }}/download/resume.pdf)。
 
 ### 更加了解我
 
