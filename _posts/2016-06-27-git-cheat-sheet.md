@@ -116,7 +116,7 @@ $ git add forgotten_file
 $ git commit --amend -m "second commit"
 ~~~
 
-## 分支和 Git 工作流
+## 创建和使用分支
 
 Git 鼓励在工作流程中频繁地使用分支和合并，甚至是一天之内进行多次。
 
@@ -137,6 +137,9 @@ $ git checkout test
 这时，Git 内部的 `HEAD` 指针便会指向到 `test`。
 
 注：以上创建和切换分支的命令，可以简写成 `git checkout -b test`。
+
+
+## Git 工作流
 
 ![Git 工作流](https://infp.github.io/blogimages/git-workflow.png){:.center}
 
@@ -167,7 +170,7 @@ $ git merge issue42
 $ git branch -d issue42
 ~~~
 
-## 查看日志
+## 查看提交日志
 
 使用 `git log` 命令可以查看代码的提交历史，不带任何参数的话，它会列出每个提交的 SHA-1 校验和、作者的名字和邮箱地址、提交时间以及提交说明。
 
@@ -218,3 +221,20 @@ $ git push origin v2.0
 ~~~
 
 当其他人从仓库中克隆或拉取时，便能得到这些标签。
+
+
+## 合并和衍合
+
+在 Git 中把一个分支上的修改整合到另一分支有两种方法：合并（merge）和衍合（rebase）。
+
+合并会把两个分支的最新修改基于它们的共同祖先进行三方合并，并最终形成一个新的提交对象。衍合是将一个分支上的修改在另外一个分支上重新打一遍，它不会产生一个新的提交对象，但是却会破坏真实的提交历史。
+
+衍合会形成一条整洁的线性提交历史。比如在进行多人开发时，使用 `git pull` 常常会产生下面这样的提交记录：
+
+~~~sh
+*   fe285e7 -  Merge branch 'master' of https://gitlab.com/xinhua/vote  (4 hours ago) <hexenq>
+|\
+| | * aa9caa3 -  Add test files  (9 hours ago) <Yanbin Ma>
+~~~
+
+为了避免这种情况，可以使用 `git pull --rebase` 命令强制使用衍合的方式与远程代码进行合并。
