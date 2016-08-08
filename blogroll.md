@@ -14,6 +14,8 @@ order: 5
 海内存知己，天涯若比邻。
 {:.lead}
 
-* [Amy Blog](http://banyaner.github.io/)
+* [Amy Blog](https://banyaner.github.io/)
+
+* [Mac 小兔](https://perixiaowan.github.io/)
 
 * [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
