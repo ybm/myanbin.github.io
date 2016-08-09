@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "一些有用的 Perl 编程技巧"
+title: "Perl 编程技巧"
 ---
 
 
