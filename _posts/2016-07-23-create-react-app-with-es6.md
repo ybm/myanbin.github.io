@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '用 ES6 创建 React App'
+title: '用 ES6 创建一个简单的 React App'
 ---
 
 本文将会用到以下技术：
