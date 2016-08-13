@@ -2,10 +2,11 @@
 layout: page
 title: "友链"
 permalink: blogroll.html
-color: '#c05b4d'
+color: '#da4939'
 image: /public/img/shinkansen.jpg
 order: 5
 ---
+
 
 {% comment %}
   CSS just for this file

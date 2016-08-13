@@ -21,21 +21,21 @@ order: 6
 
 我目前从事 Web 前端的工作，这里是[我的简历]({{ site.baseurl }}/download/resume.pdf)。
 
-### 更加了解我
+## 更加了解我
 
 我在[豆瓣读书](http://book.douban.com/people/yianbin)上分享我正在看的书以及想看的书，在 [GitHub](https://github.com/yianbin) 上维护我的代码以及关注开源项目。
 
 
-### 为什么要写这个博客？
+## 为什么要写这个博客？
 
 花时间进行写作是一件很有意义也很值得去做的事。我希望能在这里来分享技术、记录生活，同时也希望能结交到更多朋友。
 
 本站使用 GitHub Page 和 Jekyll 进行搭建，如果你喜欢这个博客，可以 Fork 我的[源代码](https://github.com/myanbin/myanbin.github.io)进行修改。
 
-### 版权说明
+## 版权说明
 
 我坚信着开放、自由和乐于分享是推动计算机技术发展的动力之一。所以本站所有内容均采用「[署名 4.0 国际（CC BY 4.0）](http://creativecommons.org/licenses/by/4.0/deed.zh)」创作共享协议。通俗地讲，只要在使用时署名，那么使用者可以对本站所有内容进行转载、节选、二次创作，并且允许商业性使用。
 
-### 联系我
+## 联系我
 
 欢迎关注我的微博 [@孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [yianbin@gmail.com](mailto:yianbin@gmail.com) 与我联系。
