@@ -38,7 +38,7 @@
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
 
-      {% assign pages_list = site.pages | sort:"order" %}
+      {% assign pages_list = site.pages | sort: "order" %}
       {% for node in pages_list %}
         {% if node.title != null %}
           {% if node.layout == "page" %}
@@ -49,7 +49,7 @@
 
       <a class="sidebar-nav-item" href="https://github.com/myanbin/talk/issues/new">留言</a>
       {% comment %}
-        Add talk link at last.
+        Add GitHub talk page link at last.
       {% endcomment %}
     </nav>
 
