@@ -134,9 +134,7 @@ $ git branch test
 $ git checkout test
 ~~~
 
-这时，Git 内部的 `HEAD` 指针便会指向到 `test`。
-
-注：以上创建和切换分支的命令，可以简写成 `git checkout -b test`。
+这时，Git 内部的 `HEAD` 指针便会指向到 `test`。注：以上创建和切换分支的命令，可以简写成 `git checkout -b test`。
 
 
 ## Git 工作流
