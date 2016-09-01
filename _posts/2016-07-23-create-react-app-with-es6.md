@@ -14,26 +14,25 @@ React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库�
 
 ## 一、目录结构
 
-源代码主要放在 `app` 目录里，`build` 是打包生成的静态文件，`webpack.config.js` 是 webpack 的配置文件：
+源代码主要放在 `app` 目录里，其中 `components` 中是 React 组件源代码、`images` 和 `stylesheets` 是图片和样式的相关代码，`build` 是打包生成的静态文件，`package.json` 和 `webpack.config.js` 分别是 npm 和 webpack 的配置文件：
 
 ```
-.
-  app/
-    components/
-      App.js
-      Hello.js
-      Stat.js
-      Vote.js
-    images/
-      screen-bg.jpg
-    styleshttes/
-      normalize.css
-    index.html
-    index.js
-  build/
-  .gitgnore
-  package.json
-  webpack.config.js
+app/
+  components/
+    App.js
+    Hello.js
+    Stat.js
+    Vote.js
+  images/
+    screen-bg.jpg
+  stylesheets/
+    normalize.css
+  index.html
+  index.js
+build/
+.gitgnore
+package.json
+webpack.config.js
 ```
 
 
@@ -41,7 +40,7 @@ React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库�
 
 项目中的配置文件主要有两个：npm 的配置文件 `package.json` 和 webpack 的配置文件 `webpack.config.js`。
 
-复制下面的代码到 `package.json` 中，然后运行 `npm install` 即可完成 App 相关模块的安装：
+复制下面的代码到 `package.json` 中，然后运行 `npm install` 即可完成项目所依赖的模块的安装：
 
 ~~~json
 {
