@@ -91,7 +91,7 @@ module.exports = {
 
 下面我们来写第一个 React 文件。在 `webpack.config.js` 中我们定义了 App 的入口文件 `index.js`，所以现在我们首先完成它。
 
-最前面，我们首先应该载入 `react` 和 `react-router` 两个模块：
+开始，我们首先应该载入 `react` 和 `react-router` 两个模块：
 
 ~~~js
 import React from 'react'
@@ -103,6 +103,7 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
 ## 四、React 的组件化
 
+（待完成）
 
 
 ## 五、React 组件库 Material UI
