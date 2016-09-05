@@ -14,7 +14,6 @@ title: "主页"
   <li>
     <h4>
       <a href="{{ site.baseurl }}{{ post.url }}"><span>{{ post.title }}</span></a>
-      <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %d' }}</time></small>
     </h4>
   </li>
   {% if forloop.last %}</ul><hr/>{% endif %}
