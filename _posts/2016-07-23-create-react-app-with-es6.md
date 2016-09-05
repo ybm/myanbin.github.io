@@ -3,7 +3,7 @@ layout: post
 title: '用 ES6 创建一个简单的 React App'
 ---
 
-React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库。本文将介绍不借助任何生成器来使用 ES6 语法来创建一个简单的 React App。文中将会用到以下技术：
+React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库。本文将介绍使用 ES6 语法来创建一个简单的 React App。文中将会用到以下技术：
 
 * react
 * react-router
@@ -170,7 +170,7 @@ class Hello extends React.Component {
 export default Hello
 ~~~
 
-> 以上代码中使用了 ES6 的模板字符串（template strings）语法：在被 <code>`</code> 括起来的字符串内部，可以直接插入 JavaScript 变量
+以上代码中使用了 ES6 的模板字符串（template strings）语法：在被 <code>`</code> 括起来的字符串内部，可以直接插入 JavaScript 变量。
 
 
 ## 五、React 组件库 Material UI

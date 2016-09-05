@@ -168,7 +168,7 @@ code {
   padding: .25em .5em;
   /* Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code. */
   /*color: #bf616a;*/
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
   border-radius: 3px;
   font-size: .95rem;
 }
@@ -185,7 +185,7 @@ pre {
   word-wrap: break-word;*/
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
 
   /* Make code same width as regular text, and scroll the full page width on mobile */
   margin-left: -1rem;
