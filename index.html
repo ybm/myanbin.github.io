@@ -3,6 +3,10 @@ layout: default
 title: "主页"
 ---
 
+
+<p class="lead">有朋自远方来，不亦乐乎</p>
+
+
 {% for post in site.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}

@@ -63,7 +63,7 @@ chrome.app.runtime.onLuanched.addListener(function () {
 
 创建 `index.html` 文件作为 App 的 window 页面，代码如下所示。需要注意的是，由于 Chrome 的安全机制，JavaScript 代码不能直接写在 HTML文件中，必须通过 `<script src="js/clock.js"></script>` 的方式引入。
 
-{% highlight html %}
+~~~html
 <!doctype html>
 <html>
 <head>
@@ -76,7 +76,7 @@ chrome.app.runtime.onLuanched.addListener(function () {
     <script src="js/clock.js"><script>
 </body>
 </html>
-{% endhighlight %}
+~~~
 
 ## 第四步、添加 CSS 样式和 JS 逻辑
 

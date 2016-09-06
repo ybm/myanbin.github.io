@@ -177,6 +177,7 @@ export default Hello
 
 [Material UI](https://github.com/callemall/material-ui) 是一个明星级的开源 React 组件库，使用 ES6 语法实现了 Google 的 Material Design 设计规范。
 
+下面的代码中，导入并使用了 Material UI 的标题栏组件 AppBar：
 
 ~~~js
 import React from 'react'
@@ -199,6 +200,7 @@ class App extends React.Component {
   }
 }
 ~~~
+
 
 
 
