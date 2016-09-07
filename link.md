@@ -16,8 +16,8 @@ order: 5
 海内存知己，天涯若比邻。
 {:.lead}
 
-* [Amy Blog](https://banyaner.github.io/)
+* [阿仲的博客](https://banyaner.github.io/)
 
 * [Mac 小兔](https://perixiaowan.github.io/)
 
-* [Ray 的博客](https://ray34.github.io/)
+* [Ray's 博客](https://ray34.github.io/)
