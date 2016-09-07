@@ -20,4 +20,4 @@ order: 5
 
 * [Mac 小兔](https://perixiaowan.github.io/)
 
-* [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+* [Ray 的博客](https://ray34.github.io/)
