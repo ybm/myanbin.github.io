@@ -14,7 +14,7 @@ React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库�
 
 ## 一、目录结构
 
-下面是一种简单的目录结构形式。源代码主要放在 `app` 目录里，其中 `components` 是 React 组件源代码文件、`images` 和 `stylesheets` 是图片和样式的相关代码，`index.js` 是入口文件：
+下面是一种简单的目录结构形式。源代码主要放在 `app` 目录里，其中 `components` 是 React 组件源代码文件、`index.js` 是 App 的入口文件、`images` 和 `stylesheets` 则保存项目中用到的图片和样式：
 
 ```
 app/

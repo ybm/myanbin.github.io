@@ -217,6 +217,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 
+.sidebar-nav-item:hover {
+  background-color: rgba(32,32,32,0.5);
+  text-decoration: none;
+}
+
 /* Disable the "white glow" that is used to make the laurel wreaths distinct form the background */
 .sidebar a::after,
 .sidebar a::before {
