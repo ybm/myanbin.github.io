@@ -165,10 +165,10 @@ pre {
   font-family: Menlo, Monaco, "Source Code Pro", Consolas, "Microsoft Yahei", monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: .18em .5em;
   /* Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code. */
-  background-color: #dddddd;
-  border-radius: 3px;
+  background-color: #e8e8e8;
+  border-radius: 0px;
   font-size: .95rem;
 }
 pre {
