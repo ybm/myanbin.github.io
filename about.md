@@ -6,6 +6,10 @@ image: /public/img/redflag.jpg
 order: 6
 ---
 
+莫愁前路无知己，天下谁人不识君。
+{:.lead}
+
+
 {% comment %}
   This inserts the "about" photo and text from `_config.yml`.
   You can edit it there (jekyll needs restart!) or remove it and provide your own photo/text.
@@ -17,13 +21,12 @@ order: 6
 {% endif %}
 
 
-我是饮冰先生，15 年毕业于北京邮电大学计算机专业，目前居住于中国北京，从事 IT。我喜爱阅读、美食和电影，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
+我是饮冰先生，15 年毕业于北京邮电大学计算机专业，目前在中国北京居住和工作，从事 IT 行业。我喜爱阅读、美食和电影，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
 
-我目前从事 Web 前端的工作，这里是[我的简历]({{ site.baseurl }}/download/resume.pdf)。
 
 ## 更加了解我
 
-我在[豆瓣读书](http://book.douban.com/people/yianbin)上分享我正在看的书以及想看的书，在 [GitHub](https://github.com/yianbin) 上维护我的代码以及关注开源项目。
+我在[豆瓣读书](http://book.douban.com/people/yianbin)上分享我正在看的书以及想看的书，在 [GitHub](https://github.com/yianbin) 上维护我的代码以及关注开源项目，你还可以在 [Linkedin](https://www.linkedin.com/in/myanbin) 上找到我。
 
 
 ## 为什么要写这个博客？
