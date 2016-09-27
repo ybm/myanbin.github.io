@@ -379,8 +379,10 @@ h2::before {
   padding-left: 0;
   list-style: none;
 }
-.related-posts h3 {
+.related-posts h4 {
   margin-top: 0;
+  color: #333;
+  font-weight: normal;
 }
 .related-posts li small {
   font-size: 75%;
@@ -396,6 +398,47 @@ h2::before {
 .related-posts li a:hover small {
   color: inherit;
 }
+
+
+/*
+ * Dot Leaders
+ *
+ * https://www.w3.org/Style/Examples/007/leaders.en.html
+ */
+
+ul.related-posts {
+  padding: 0;
+  overflow-x: hidden;
+  list-style: none;
+}
+
+ul.related-posts h4:after {
+  float: left;
+  width: 0;
+  white-space: nowrap;
+  content:
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+"· · · · · · · · · · · · · · · · · · · · "
+}
+
+ul.related-posts a {
+  padding-right: 0.4em;
+  background: white;
+}
+ul.related-posts a + span {
+  float: right;
+  padding-left: 0.4em;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
 
 .aside-title {
   margin-bottom: 1.5rem;
