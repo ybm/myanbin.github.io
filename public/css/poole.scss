@@ -395,10 +395,13 @@ h2::before {
   color: #333;
 }
 
-.related-posts li a:hover small {
-  color: inherit;
+.related-posts li a:hover {
+  text-decoration: none;
+  border-bottom: none;
 }
-
+.related-posts li a:hover + .refinfo {
+  color: #0388a6;
+}
 
 /*
  * Dot Leaders
