@@ -1,5 +1,5 @@
 # Permalinks
-permalink:        /posts/:title.html
+permalink:        /post/:title.html
 
 # Setup
 url:              //myanbin.github.io
