@@ -49,19 +49,19 @@ sass:
 
 将当前 `public/css` 目录中的所有 CSS 文件后缀改为 `.scss`，并新建文件 `styles.scss`，用于将其他 Sass 文件合并到一起：
 
-~~~
+~~~sh
 myblog
-|---_includes
-|---_layouts
-|---_posts
-|---public
-|   |---css
-|   |   |---highlight.scss
-|   |   |---hyde.scss
-|   |   |---poole.scss
-|   |   |---styles.scss
-|---_config.yml
-|---index.html
+├── _includes
+├── _layouts
+├── _posts
+├─┬ public
+│ └─┬ css
+│   ├── highlight.scss
+│   ├── hyde.scss
+│   ├── poole.scss
+│   └── styles.scss
+├── _config.yml
+└── index.html
 ~~~
 
 

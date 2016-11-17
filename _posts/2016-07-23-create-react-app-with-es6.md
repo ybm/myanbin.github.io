@@ -16,24 +16,25 @@ React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库�
 
 下面是一种简单的目录结构形式。源代码主要放在 `app` 目录里，其中 `components` 是 React 组件源代码文件、`index.js` 是 App 的入口文件、`images` 和 `stylesheets` 则保存项目中用到的图片和样式：
 
-```
-app/
-  components/
-    App.js
-    Hello.js
-    Stat.js
-    Vote.js
-  images/
-    screen-bg.jpg
-  stylesheets/
-    normalize.css
-  index.html
-  index.js
-build/
-.gitgnore
-package.json
-webpack.config.js
-```
+~~~sh
+(root)
+├─┬ app/
+│ ├─┬ components/
+│ │ ├── App.js
+│ │ ├── Hello.js
+│ │ ├── Stat.js
+│ │ └── Vote.js
+│ ├─┬ images/
+│ │ └── screen-bg.jpg
+│ ├─┬ stylesheets/
+│ │ └── normalize.css
+│ ├── index.html
+│ └── index.js
+├── build/
+├── .gitgnore
+├── package.json
+└── webpack.config.js
+~~~
 
 除了手动生成文件目录外，还可以通过 Facebook 官方的 [Create React App](https://github.com/facebookincubator/create-react-app) 来自动生成。
 
@@ -170,7 +171,7 @@ class Hello extends React.Component {
 export default Hello
 ~~~
 
-以上代码中使用了 ES6 的模板字符串（template strings）语法：在被 <code>`</code> 括起来的字符串内部，可以直接插入 JavaScript 变量。
+
 
 
 ## 五、React 组件库 Material UI
