@@ -44,12 +44,12 @@ html {
 }
 @media (min-width: 48em) {
   html {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 @media (min-width: 58em) {
   html {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -284,14 +284,14 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 40rem;
+    max-width: 46rem;
     margin-left: 20rem;
     margin-right: 2rem;
     border-left: none;
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 60em) {
   .content {
     margin-left: 22rem;
     margin-right: 4rem;
