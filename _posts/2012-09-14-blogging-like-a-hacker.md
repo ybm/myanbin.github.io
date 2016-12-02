@@ -18,4 +18,4 @@ $ jekyll server
 # => Now browse to http://localhost:4000
 ~~~
 
-最后，利用 GitHub Page，将博客源代码部署到 GitHub 上去，便可以得到一个使用<abbr title="比如说，Git">版本控制</abbr>，可以在本地用 [Markdown](http://wowubuntu.com/markdown/basic.html) 写作的简单快速的静态博客系统了。
+最后，利用 GitHub Page，将博客源代码部署到 GitHub 上去，便可以得到一个使用版本控制，可以在本地用 [Markdown](http://wowubuntu.com/markdown/basic.html) 写作的简单快速的静态博客系统了。
