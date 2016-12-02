@@ -55,18 +55,18 @@
 
     <div class="sidebar-social">
       {% if site.author.github %}
-        {% include icon-github.html username=site.author.github %}
+        <a href="https://github.com/{{ site.author.github }}"><span class="icon icon-github"></span></a>
       {% endif %}
 
       {% if site.author.linkedin %}
-        {% include icon-linkedin.html username=site.author.linkedin %}
+        <a href="https://cn.linkedin.com/in/{{ site.author.linkedin }}"><span class="icon icon-linkedin"></span></a>
       {% endif %}
 
       {% if site.author.weibo %}
-        {% include icon-weibo.html username=site.author.weibo %}
+        <a href="http://weibo.com/{{ site.author.weibo }}"><span class="icon icon-sina-weibo"></span></a>
       {% endif %}
 
-      {% include icon-rss.html %}
+      <a href="{{ site.baseurl }}/atom.xml"><span class="icon icon-rss"></span></a>
     </div>
   </div>
 </div>
