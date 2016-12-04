@@ -22,7 +22,7 @@ analytics:        'UA-35742418-1'
 
 # Fallback image and color if not overwritten for tag or post
 image:            /public/img/succulent.jpg
-color:            '#0388a6'
+color:            '#2196f3'
 
 author:
   name:           '饮冰先生'

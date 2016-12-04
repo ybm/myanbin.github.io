@@ -7,7 +7,6 @@ order: 6
 ---
 
 
-
 {% comment %}
   This inserts the "about" photo and text from `_config.yml`.
   You can edit it there (jekyll needs restart!) or remove it and provide your own photo/text.
@@ -39,4 +38,4 @@ order: 6
 
 ## 联系我
 
-欢迎关注我的微博 [@孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [yianbin@gmail.com](mailto:yianbin@gmail.com) 与我联系。
+欢迎关注我的微博 [@孺子牛骑士](http://weibo.com/yianbin)，或发邮件到 [ma.yanbin@qq.com](mailto:ma.yanbin@qq.com) 与我联系。你也可以通过页面左下角的链接给我留言。
