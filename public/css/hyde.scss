@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
    * Now the drawer is placed above the 0.5rem border on the side.
    * It also looks kinda cool w/o the drawer.
    */
-  // border-left: 0.5rem solid #ddd;
+  border-left: 0.5rem solid #fff;
 }
 
 @media (min-width: 48em) {
@@ -299,9 +299,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Override pool styles that are specific to this theme */
-.post-date {
-  /*font-weight: bold;*/
-}
 
 .related-posts li a {
   font-weight: normal;
