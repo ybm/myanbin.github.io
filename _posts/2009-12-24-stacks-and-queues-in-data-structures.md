@@ -65,7 +65,7 @@ typedef struct
 
 下图是链式栈的出栈示意图：
 
-![链式栈的出栈方式](https://infp.github.io/blogimages/stackpop.jpg){:.center}
+![链式栈的出栈方式](https://infp.github.io/blogimages/stack-pop.jpg){:.center}
 
 ~~~cpp
 int pushStack(Stack &S, char dataIn)
@@ -104,7 +104,7 @@ return S.top->data;
 
 入队，出队，取队首元素和队尾元素是队列的四种基本操作。入队和出队是构造队列或者销毁队列时采取的两种操作，它们或者增加或者减小了队列的规模，下图是链式队列的入队和出队示意图。
 
-![链式队列的入队和出队](https://infp.github.io/blogimages/queuein.jpg){:.center}
+![链式队列的入队和出队](https://infp.github.io/blogimages/queue-in.jpg){:.center}
 
 ~~~cpp
 int enQueue(Queue &Q, char dataIn)
