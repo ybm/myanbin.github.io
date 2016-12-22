@@ -363,3 +363,38 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: -5.05rem;
   }
 }
+
+/*
+ * Print Styles (by Yanbin Ma)
+ * 
+ * - Hide Sidebar elements
+ * - Use serif font family
+ */
+@media print {
+  @page {
+    size: A4;
+    margin: 3cm;
+  }
+  html {
+    font-family: "PT Serif", Georgia, "STZhongsong", "\534E\6587\4E2D\5B8B", serif;
+    font-size: 18pt;
+  }
+  #_sidebar, #_menu {
+    display: none;
+  }
+  .container {
+    max-width: 100%;
+    margin: 0;
+  }
+  .content {
+    padding: 0;
+  }
+  // To force this heading to always be the beginning of a page
+  h1 {
+    page-break-before: always;
+  }
+  // To avoid breaks directly after a heading
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+}
