@@ -4,7 +4,7 @@ title: '我的开发日常 Git 命令清单'
 ---
 
 
-从 2011 年开始接触 Git 到现在，我的使用时间不算太短，但是却只限于 `git add`、`git commit`、`git push` 这几个简单命令。最近因为工作需要，我将 [Pro Git](https://git-scm.com/book/zh/v2) 通读了一遍，故写此篇。
+从 2011 年开始接触 Git 到现在，我的使用时间不算太短，但是却只限于 `add`、`commit`、`push` 这几个简单命令。最近因为工作需要，我将 [Pro Git](https://git-scm.com/book/zh/v2) 通读了一遍，故写此篇。
 
 
 ## 前言

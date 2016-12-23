@@ -49,7 +49,7 @@ React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库�
 
 ~~~js
 var ExtractTextPlugin = require("extract-text-webpack-plugin")
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
   entry: './app/index.js',
@@ -96,7 +96,7 @@ module.exports = {
 
 在 `webpack.config.js` 中我们定义了 App 的入口文件 `index.js`，所以现在我们首先完成它。
 
-开始，我们首先应该载入 `react` 和 `react-router` 两个模块：
+开始，我们首先应该载入 react 和 react-router 两个模块：
 
 ~~~js
 import React from 'react'
@@ -104,7 +104,6 @@ import ReactDOM from 'react-dom'
 import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 ~~~
 
-> 在 ES6 中，可以使用 `import` 语句加载 JavaScript 模块，使用 `as` 关键字可以对模块进行重命名
 
 然后使用 React Router 进行路由的配置。下面的代码指出了 Router 应该如何匹配 URL 并且调用相应的组件：
 
@@ -130,7 +129,7 @@ ReactDOM.render((
 ), document.getElementById('app'))
 ~~~
 
-当用户访问 `/` 时，便会使用默认路由 IndexRoute 定位到组件 `Hello`；访问 `/vote` 时，便会指向到 `Vote` 组件。
+当用户访问 `/` 时，便会使用默认路由 IndexRoute 定位到组件 Hello；访问 `/vote` 时，便会指向到 Vote 组件。
 
 最后，React 会将这个配置好的 Router 绑定到 ID 为 `app` 的 DOM 上。
 
@@ -139,7 +138,7 @@ ReactDOM.render((
 
 从上面的目录结构中可以看到，我们将 React 的组件写在与它同名的 JavaScript 中。在这个文件中，我们不仅会定义这个组件的 DOM 结构和交互行为，还会将 CSS 样式写在其中，这样当我们需要使用这个组件时，直接调用组件即可，其相应的 JS 和 CSS 便会同时被加载。
 
-下面是 `Hello` 组件的源码：
+下面是 Hello 组件的源码：
 
 ~~~js
 import React from 'react'
