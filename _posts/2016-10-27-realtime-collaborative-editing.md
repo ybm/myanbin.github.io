@@ -40,7 +40,7 @@ insert('world')
 retain(1)
 ```
 
-注意上面代码中最后的一个 Retain 操作。实际上，Retina 操作像一个虚拟的光标，从文档的开始位置遍历，在需要修改的地方进行 Insert 或 Delete 操作，直到文档末尾。
+注意上面代码中最后的一个 Retain 操作。实际上，Retain 操作像一个虚拟的光标，从文档的开始位置遍历，在需要修改的地方进行 Insert 或 Delete 操作，直到文档末尾。
 
 在 Alice 编辑文档的同时，用户 Bob 也对原文档进行了修改，并产生了如下的操作序列 `operationB`：
 
@@ -50,7 +50,7 @@ insert('hi')
 retain(6)
 ```
 
-对应地，Bob 修改后的文档应该是 `hi, tom!`。此时，Alice 和 Bob 的修改便会产生冲突，所以我们需要对这组操作进行一定的转换（Transform）：
+对应地，Bob 修改后的文档应该是 `hi, tom!`。此时，Alice 和 Bob 的修改便会产生冲突，于是我们需要对这组操作进行一定的转换（Transform）：
 
 ```js
 var [operationAPrime, operationBPrime] = OT.transform(operationA, operationB)
@@ -58,7 +58,7 @@ var strAB = operationAPrime.apply('hi, tom!')       // 'hi, world!'
 var strBA = operationBPrime.apply('hello, world!')  // 'hi, world!'
 ```
 
-经过最后的同步，Alice 和 Bob 最终看到的文档便会是一致的。
+这样在经过转换操作后，Alice 和 Bob 两个人最终看到的文档便会是一致的。
 
 ## 三、参考资料
 
