@@ -21,7 +21,7 @@ sidebar_tags:     []
 analytics:        'UA-35742418-1'
 
 # Fallback image and color if not overwritten for tag or post
-image:            /public/img/succulent.jpg
+image:            /public/img/autumn.jpg
 color:            '#2196f3'
 
 author:
@@ -35,7 +35,7 @@ author:
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:          |
-    我是饮冰先生，热爱前端与黑客文化，喜欢与人交流分享 IT 技术。我的微博是 [@孺子牛骑士](http://weibo.com/yianbin)
+    我是饮冰先生，热爱电脑技术和黑客文化，喜欢与人交流分享开源思想和 TI 技术。我的微博是 [@孺子牛骑士](http://weibo.com/yianbin)
 
 
 compress_html:
