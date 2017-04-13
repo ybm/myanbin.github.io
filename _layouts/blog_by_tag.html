@@ -28,7 +28,7 @@ layout: default
         <span class="refinfo">{{ post.date | date: "%m/%d" }}</span>
       </h4>
     </li>
-    {% if forloop.last %}</ul><hr/>{% endif %}
+    {% if forloop.last %}</ul>{% endif %}
   {% endfor %}
 {% else %}
     <p>此标签下暂无文章</p>
