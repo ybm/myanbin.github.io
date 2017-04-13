@@ -12,7 +12,6 @@ layout: default
   {% capture desc %}{{ tag.description }}{:.message}{% endcapture %}
   {{ desc | markdownify }}
 {% endif %}
-<hr/>
 
 {% if site.tags[page.tag] %}
   {% for post in site.tags[page.tag] %}
