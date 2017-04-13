@@ -14,14 +14,12 @@
 life:
   name: Life
   image: /public/img/green.jpg
-  color: '#949667'
   description: >
     「Simple living, noble thing.」，这是上学时我从西方哲学家斯宾诺莎那里得到的名言，并成了我追求简朴而具有理性思想的生活方式的座右铭。
 
 code:
   name: Code
   image: /public/img/succulent.jpg
-  color: '#304ffe'
   description: >
     像建筑师、作曲家和画家一样，黑客们也在进行着富有创造性和挑战性的工作，他们将代码构筑成如今的互联网和计算机的世界。
     在这里，你将会看到这些代码是如何工作的。
@@ -29,6 +27,5 @@ code:
 photo:
   name: Photo
   image: /public/img/jekyll.jpg
-  color: '#212121'
   description: >
     关于照片和写真。
