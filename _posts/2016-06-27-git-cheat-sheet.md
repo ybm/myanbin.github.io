@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '我的开发日常 Git 命令清单'
+tags: [code]
 ---
 
 

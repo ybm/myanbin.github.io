@@ -1,6 +1,7 @@
 ---
 layout: post
 title: '用 ES6 创建一个简单的 React App'
+tags: [code]
 ---
 
 React 是由 Facebook 发布的一个用于构建用户界面的 JavaScript 库。本文将介绍使用 ES6 语法来创建一个简单的 React App。文中将会用到以下技术：
