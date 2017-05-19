@@ -5,7 +5,7 @@ tags: [code]
 ---
 
 
-从 2011 年开始接触 Git 到现在，我的使用时间不算太短，但是却只限于 `add`、`commit`、`push` 这几个简单命令。最近因为工作需要，我将 [Pro Git](https://git-scm.com/book/zh/v2) 通读了一遍，故写此篇。
+从 2011 年开始接触 Git 到现在，我的使用时间不算太短，但是却只限于 `add`、`commit`、`push` 这几个简单命令。最近因为工作需要，我将 [Pro Git](https://git-scm.com/book/zh/v2) 通读一遍，故有此篇。
 
 
 ## 前言
@@ -238,3 +238,9 @@ $ git push origin v2.0
 
 为了避免这种情况，可以使用 `git pull --rebase` 命令强制使用衍合的方式与远程代码进行合并。
 
+
+## Cherry pick
+
+Cherry pick 命令复制一个提交节点并在当前分支做一次完全一样的新提交。下图所示的命令表示，将 topic 分支上的一个提交 `2c33a` 添加到主分支 master 上，新的提交 SHA1 为 `f142b`。
+
+![Cherry pick 命令图解](https://infp.github.io/blogimages/git-cherrypick.png){:.center}
