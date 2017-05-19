@@ -25,7 +25,7 @@ npm install --save draft-js
 
 新建一个 React 组件，比如叫作 RichEditor，将下面代码粘贴过去：
 
-```jsx
+```js
 import React from 'react';
 import {Editor, EditorState} from 'draft-js';
 
