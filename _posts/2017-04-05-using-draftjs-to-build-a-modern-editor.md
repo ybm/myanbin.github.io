@@ -21,7 +21,7 @@ npm install --save draft-js
 至此，基本环境已经搭建完成了。
 
 
-## 二、一个最简单的编辑器
+## 二、一个简单的编辑器
 
 新建一个 React 组件，比如叫作 RichEditor，将下面代码粘贴过去：
 
@@ -83,9 +83,9 @@ blocks 是一个数组，每一项代表当前内容中的一个块级元素（�
 }
 ```
 
-上面数据表示，在本块级元素中的文本，将从第 4 个字符开始，长度为 5 的字符串分别设置为加粗和斜体样式。
+上面数据表示，在本块级元素中的文本，将从第 4 个字符开始，长度为 5 的字符串分别设置为加粗和倾斜样式。
 
-Entity 的位置信息存储于 entityRanges 数组中，其元数据可以通过 key 值，可以在 entityMap 中索引到。
+在 Draft.js 中，超链接、图片、视频等多媒体元素的数据通过 Entity 对象来表示，而 Entity 的位置信息存储于 entityRanges 数组中，其元数据可以通过 key 值，可以在 entityMap 中索引到。
 
 ![经过 covertToRaw 之后的编辑器内容：entityMap](https://infp.github.io/blogimages/draftjs-entity.png){:.center}
 
@@ -102,4 +102,39 @@ entityMap 用于存储 Entity 类型的元数据。在本例中，key 值为 0 �
     }
   }
 }
+```
+
+## 四、使用 Entity 对象创建超链接
+
+一个 Entity 对象表示一段文本（长度可能为 0）的元数据，它有三个属性：
+
+* 用于表示该 Entity 类型的 **type** 字符串，比如 `link`、`image`；
+* 根据 Entity 是否可变，**mutability** 具有三种取值：`IMMUTABLE`、`MUTABLE` 和 `SEGMENTED`;
+* 用于存储 Entity 元数据的 **data** 字段，比如对于超链接类型的 Entity，应该有一个 href 值；
+
+下面代码描述了如何创建一个超链接 Entity，并根据生成的 key 更新 ContentState 对象：
+
+```js
+const contentState = editorState.getCurrentContent();
+const contentStateWithEntity = contentState.createEntity(
+  'LINK',
+  'MUTABLE',
+  {url: 'https://myanbin.github.io/'}
+);
+const entityKey = contentStateWithEntity.getLastCreatedEntityKey();
+const contentStateWithLink = Modifier.applyEntity(
+  contentStateWithEntity,
+  selectionState,
+  entityKey
+);
+```
+
+下面代码描述了如何根据 key，从 ContentState 对象中取出 Entity 元数据：
+
+```js
+const blockWithLinkAtBeginning = contentState.getBlockForKey('...');
+const linkKey = blockWithLinkAtBeginning.getEntityAt(0);
+const contentState = editorState.getCurrentContent();
+const linkInstance = contentState.getEntity(linkKey);
+const {url} = linkInstance.getData();
 ```
