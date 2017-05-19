@@ -66,12 +66,38 @@ EditorState 和 ContentState 都是 Immutable  的对象，所以 Draft.js 提�
 
 ![Draft.js 富文本编辑器](https://infp.github.io/blogimages/draftjs-editor.png){:.center}
 
-那么经过 `covertToRaw` 转换的结果为：
+那么经过 `covertToRaw` 转换的 JSON 输出有两部分组成：**blocks** 和 **entityMap**，具体结构如下：
 
 ![经过 covertToRaw 之后的编辑器内容：blocks](https://infp.github.io/blogimages/draftjs-blocks.png){:.center}
 
+blocks 是一个数组，每一项代表当前内容中的一个块级元素（比如标题、段落、列表等）。其中 text 表示该块级元素中的纯文本，type 表示该块级元素的类型（`header-one` 表示一级标题、`unstyled` 表示普通段落、`atomic` 表示多媒体类的块级元素）。行内样式的数据存储于 inlineStyleRanges 数组中，其格式如下：
+
+```js
+{
+  "inlineStyleRanges": [
+    {"offset": 4, "length": 5, "style": "BOLD"},
+    {"offset": 4, "length": 5, "style": "ITALIC"}
+  ]
+}
+```
+
+上面数据表示，在本块级元素中的文本，将从第 4 个字符开始，长度为 5 的字符串分别设置为加粗和斜体样式。
+
+Entity 的位置信息存储于 entityRanges 数组中，其元数据可以通过 key 值，可以在 entityMap 中索引到。
+
 ![经过 covertToRaw 之后的编辑器内容：entityMap](https://infp.github.io/blogimages/draftjs-entity.png){:.center}
 
-JSON 输出有两部分组成：**blocks** 和 **entityMap**。
+entityMap 用于存储 Entity 类型的元数据。在本例中，key 值为 0 的 超链接 Entity，其元数据如下：
 
-blocks 是一个数组，每一项代表当前内容中的一个块级元素（比如标题、段落、列表等）。
+```js
+{
+  "0": {
+    "type": "link",
+    "mutability": "MUTABLE",
+    "data": {
+      "description": "my blog",
+      "src": "https://myanbin.github.io/"
+    }
+  }
+}
+```
