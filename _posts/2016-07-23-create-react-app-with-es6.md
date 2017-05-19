@@ -108,7 +108,7 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
 然后使用 React Router 进行路由的配置。下面的代码指出了 Router 应该如何匹配 URL 并且调用相应的组件：
 
-~~~jsx
+~~~js
 class App extends React.Component {
   render() {
     return (
