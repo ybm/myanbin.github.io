@@ -87,9 +87,9 @@ blocks 是一个数组，每一项代表当前内容中的一个块级元素（�
 
 上面数据表示，本块级元素中的文本，将从第 4 个字符开始，长度为 5 的字符串分别设置为加粗和倾斜样式。在 Draft.js 模型中，对行内样式的描述数据放在一个 OrderSet 的不可变对象中，通过数组来表示每一个字符的样式。
 
-比如对于文本『<em>Don't <strong>panic</strong></em>』，对应的 OrderSet 对象是：
+比如对于文本「<em>Don't <strong>panic</strong></em>」，对应的 OrderSet 对象是：
 
-```json
+```
 [
   ['ITALIC'],           // D
   ['ITALIC'],           // o

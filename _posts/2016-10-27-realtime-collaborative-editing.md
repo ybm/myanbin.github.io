@@ -61,7 +61,19 @@ var strBA = operationBPrime.apply('hello, world!')  // 'hi, world!'
 
 这样在经过转换操作后，Alice 和 Bob 两个人最终看到的文档便会是一致的。
 
-## 三、参考资料
+## 三、一个示例
+
+[ot-demo](https://github.com/Operational-Transformation/ot-demo)
+
+该示例中使用 CodeMirror 作为编辑器，实现了一个可实时协同的 Markdown 编辑器，其代码具有一定的参考价值。启动方法：
+
+```sh
+git clone https://github.com/Operational-Transformation/ot-demo.git && cd ot-demo
+npm install
+node backends/node/server.js
+```
+
+## 四、参考资料
 
 1. [Operational transformation - Wikipedia](https://en.wikipedia.org/wiki/Operational_transformation)
 2. [Operational Transformation in JavaScript](https://operational-transformation.github.io/ot-for-javascript.html)
