@@ -4,9 +4,11 @@ title: '使用 Draft.js 来构建一个现代化的编辑器'
 tags: [code]
 ---
 
-在前端，编辑器是一个非常重要的 Web 组件，任何需要编辑的地方都需要纯文本或富文本编辑器。目前，纯文本编辑器主要依靠 HTML 的 `textarea` 标签来实现，而所见即所得的富文本编辑器由于增加了粗体、斜体等样式以及标题级别、图片视频等功能，一般使用 HTML 元素的 `contentEditable` 属性来实现。
+在前端，编辑器是一个非常重要的 Web 组件，任何需要编辑的地方都需要纯文本或富文本的编辑器。目前，纯文本编辑器主要依靠 HTML 的 `textarea` 标签来实现，而所见即所得的富文本编辑器由于增加了粗体、斜体等样式以及标题级别、图片视频等多媒体功能，一般通过设置 HTML 元素的 `contentEditable` 属性来实现。
 
-本文中的主角 [Draft.js](https://draftjs.org/) 是 Facebook 发布的一个用于构建富文本编辑器的 JavaScript 框架，它基于 React 进行开发。需要注意的是，Draft.js 不是一个开箱即可用的编辑器，开发者需要对它进行进一步的编码才能使用。本文便是介绍如何一步一步地构建一个功能丰富的编辑器，并对其 API 进行相关介绍。
+本文中的主角 [Draft.js](https://draftjs.org/) 是 Facebook 发布的一个用于构建富文本编辑器的 JavaScript 框架，它基于 React 进行开发。需要注意的是，Draft.js 不是一个开箱即可用的编辑器，开发者需要对它进行进一步的编码才能使用。
+
+本文便是介绍如何一步一步地构建一个功能丰富的编辑器，并对其原理和 API 进行相关介绍。
 
 ## 一、安装基本模块
 
@@ -83,7 +85,21 @@ blocks 是一个数组，每一项代表当前内容中的一个块级元素（�
 }
 ```
 
-上面数据表示，在本块级元素中的文本，将从第 4 个字符开始，长度为 5 的字符串分别设置为加粗和倾斜样式。
+上面数据表示，本块级元素中的文本，将从第 4 个字符开始，长度为 5 的字符串分别设置为加粗和倾斜样式。在 Draft.js 模型中，对行内样式的描述数据放在一个 OrderSet 的不可变对象中，通过数组来表示每一个字符的样式。
+
+比如对于文本『<em>Don't <strong>panic</strong></em>』，对应的 OrderSet 对象是：
+
+```json
+[
+  ['ITALIC'],           // D
+  ['ITALIC'],           // o
+  ...
+  ['ITALIC', 'BOLD'],   // p
+  ['ITALIC', 'BOLD'],   // a
+  ['ITALIC', 'BOLD'],   // n
+  ...
+]
+```
 
 在 Draft.js 中，超链接、图片、视频等多媒体元素的数据通过 Entity 对象来表示，而 Entity 的位置信息存储于 entityRanges 数组中，其元数据可以通过 key 值，可以在 entityMap 中索引到。
 
@@ -106,11 +122,11 @@ entityMap 用于存储 Entity 类型的元数据。在本例中，key 值为 0 �
 
 ## 四、使用 Entity 对象创建超链接
 
-一个 Entity 对象表示一段文本（长度可能为 0）的元数据，它有三个属性：
+一个 Entity 对象表示一段文本（长度可能为 0）的元数据，所以可以用来表示超链接、图片、视频等需要额外数据项的多媒体内容。该对象有三个属性：
 
-* 用于表示该 Entity 类型的 **type** 字符串，比如 `link`、`image`；
+* 用于表示该 Entity 类型的 **type**，比如可以取值为 `link`、`image`；
 * 根据 Entity 是否可变，**mutability** 具有三种取值：`IMMUTABLE`、`MUTABLE` 和 `SEGMENTED`;
-* 用于存储 Entity 元数据的 **data** 字段，比如对于超链接类型的 Entity，应该有一个 href 值；
+* 用于存储 Entity 元数据的 **data** 字段，比如对于超链接 Entity，应该有一个 href 值；
 
 下面代码描述了如何创建一个超链接 Entity，并根据生成的 key 更新 ContentState 对象：
 
