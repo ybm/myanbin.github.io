@@ -63,7 +63,7 @@ var strBA = operationBPrime.apply('hello, world!')  // 'hi, world!'
 
 ## 三、一个示例
 
-[ot-demo](https://github.com/Operational-Transformation/ot-demo)
+![一个简单的 OT 协同编辑示例](https://infp.github.io/blogimages/collaborative-editing-demo.png){:.center}
 
 该示例中使用 CodeMirror 作为编辑器，实现了一个可实时协同的 Markdown 编辑器，其代码具有一定的参考价值。启动方法：
 

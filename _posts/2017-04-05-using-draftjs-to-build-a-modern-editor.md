@@ -128,7 +128,7 @@ entityMap 用于存储 Entity 类型的元数据。在本例中，key 值为 0 �
 * 根据 Entity 是否可变，**mutability** 具有三种取值：`IMMUTABLE`、`MUTABLE` 和 `SEGMENTED`;
 * 用于存储 Entity 元数据的 **data** 字段，比如对于超链接 Entity，应该有一个 href 值；
 
-下面代码描述了如何创建一个超链接 Entity，并根据生成的 key 更新 ContentState 对象：
+下面代码描述了如何创建一个超链接 Entity，并根据生成的 key 更新 EditorState 对象：
 
 ```js
 const contentState = editorState.getCurrentContent();
@@ -138,11 +138,8 @@ const contentStateWithEntity = contentState.createEntity(
   {url: 'https://myanbin.github.io/'}
 );
 const entityKey = contentStateWithEntity.getLastCreatedEntityKey();
-const contentStateWithLink = Modifier.applyEntity(
-  contentStateWithEntity,
-  selectionState,
-  entityKey
-);
+const newEditorState = EditorState.set(editorState, { currentContent: contentStateWithEntity });
+RichUtils.toggleLink(newEditorState, newEditorState.getSelection(), entityKey);
 ```
 
 下面代码描述了如何根据 key，从 ContentState 对象中取出 Entity 元数据：
@@ -154,3 +151,69 @@ const contentState = editorState.getCurrentContent();
 const linkInstance = contentState.getEntity(linkKey);
 const {url} = linkInstance.getData();
 ```
+
+
+## 五、装饰器 Decorator
+
+Draft.js 使用 `blockRendererFn` 来渲染块级元素组件，对于行内元素组件的渲染，则使用装饰器 Decorator 来完成。比如对于上面的超链接元素，则需要如下的代码将其渲染成一个 Link 组件：
+
+```js
+const decorator = new CompositeDecorator([
+  {
+    strategy: (contentBlock, callback, contentState) => {
+      contentBlock.findEntityRanges(
+        (character) => {
+          const entityKey = character.getEntity();
+          return (
+            entityKey !== null &&
+            contentState.getEntity(entityKey).getType() === 'LINK'
+          );
+        },
+        callback
+      );
+    },
+    component: Link,
+  },
+]);
+```
+
+与 `blockRendererFn` 渲染整个块级元素不同，Decorator 使用一个 Strategy 函数，来查找块级元素内符合要求的文本并进行渲染。
+
+
+## 六、自定义快捷键
+
+Draft.js 默认提供了一系列常用快捷键，比如 `Ctrl + Z` 是撤销、`Ctrl + B` 是加粗，另外开发者也可以自定义快捷键来实现个性化的功能。比如下面的代码中，实现了两个自定义的命令 save 和 insert-link：
+
+```js
+const myKeyBindingFn = (e) => {
+  if (e.keyCode === 83 /* `S` key */ && KeyBindingUtil.hasCommandModifier(e)) {
+    return 'save';
+  } else if (e.keyCode === 75 /* `K` key */ && KeyBindingUtil.hasCommandModifier(e)) {
+    return 'insert-link';
+  }
+  return getDefaultKeyBinding(e);
+}
+
+handleKeyCommand(command) {
+    const { editorState } = this.state;
+    if (command === 'save') {
+      console.log(convertToRaw(editorState.getCurrentContent()));
+    } else if (command === 'insert-link') {
+      this.insertLink();
+    }
+
+    const newState = RichUtils.handleKeyCommand(editorState, command);
+    if (newState) {
+      this.onChange(newState);
+      return true;
+    }
+    return false;
+  }
+```
+
+其中 `myKeyBindingFn` 用于检测键盘按键并返回相应命令，`handleKeyCommand` 用于处理相应的命令。
+
+
+## 七、源代码
+
+我实现了一个简单的 Demo，并把源码放到了 GitHub 上，你可以在[这里下载](https://github.com/myanbin/myeditor)。

@@ -207,4 +207,4 @@ class App extends React.Component {
 
 ## 获取源代码
 
-我把源码放到了 GitHub 上，你可以在[这里下载](https://github.com/xinhuaorg/vote-demo)。
+我把源码放到了 GitHub 上，你可以在[这里下载](https://github.com/xinhua-tech/vote-demo)。
