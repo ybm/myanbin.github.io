@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 毕业两年记
+title: '毕业两年记'
 tags: [life, photo]
 ---
 

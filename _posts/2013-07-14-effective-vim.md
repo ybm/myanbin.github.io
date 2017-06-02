@@ -3,12 +3,6 @@ layout: post
 title: "高效使用 Vim 编辑器"
 ---
 
-<style>
-  .post table th:first-child {
-    width: 100px;
-  }
-</style>
-
 
 Vim 是程序员最广泛使用的文本编辑器之一（在 Unix 文化里，它的对手是 [Emacs](https://zh.wikipedia.org/wiki/Emacs)，并由此引发了黑客界的[编辑器之战](https://zh.wikipedia.org/wiki/编辑器之战)）。
 
