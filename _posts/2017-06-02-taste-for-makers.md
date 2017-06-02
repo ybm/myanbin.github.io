@@ -5,28 +5,23 @@ tags: [code]
 ---
 
 
-<style>
-  .post {
-    font-family: 'Times New Roman', serif;
-  }
-</style>
-
+<div class="message">
 本文是 Taste for Makers 的中文翻译，经原作者 Paul Graham 的同意，公开发表。<br>
 在保留和不改变本版权信息的前提下，本译文可以自由地复制，变更和再发布。<br>
 Copyright 2002 by Paul Graham<br>
 原文地址：Paul Graham（http://www.paulgraham.com/taste.html）<br>
 中文译者：戴雨文（http://daiyuwen.freeshell.org/gb/taste/taste.html）
-{.message}
+</div>
 
 
-"哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因..."
-- Thomas Kuhn, The Copernican Revolution
-
-"在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。" 
-- Ben Rich, Skunk Works
-
-"美是第一道检验：世上没有永久的地方容纳丑陋的数学。" 
-- G. H. Hardy, A Mathematician's Apology
+> "哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因..."
+> &mdash; Thomas Kuhn, The Copernican Revolution
+>
+> "在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。" 
+> &mdash; Ben Rich, Skunk Works
+>
+> "美是第一道检验：世上没有永久的地方容纳丑陋的数学。" 
+> &mdash; G. H. Hardy, A Mathematician's Apology
 
 
 我最近与一位在 MIT 任教的朋友聊天。他的领域现在很热门，来自即将成为研究生的申请表每年都潮水般地涌向他。“他们中的大多数看上去都很聪明，”他说。“我不能确定的是他们是否有鉴赏力。”
@@ -69,7 +64,7 @@ Copyright 2002 by Paul Graham<br>
 
 **好的设计解决正确的问题。**典型的（烹饪用的）炉子有四个出火口，形成一个正方形，各有一个开关控制它们。你如何安排这些开关？最简单的答案是把它们排成一行。但这是答非所问。开关是给人用的，如果你把它们排成一行，不幸的厨师不得不每次都停下来思考一下哪个开关是控制哪个出火口的。更好的办法是象出火口那样安排成一个正方形。
 
-许多坏的设计是勤勉的，但是被误导了。二十世纪中叶有一股使用无衬线（sans-serif）字体的风气。这些字体的确更接近纯粹的基本的字形。但这不是你在文本里要解决的问题。字母能被容易地认出是更重要的事情。虽然象是维多利亚时代的风格，但 Times Roman 的小写字母 g 很容易与小写字母 y 区分。
+许多坏的设计是勤勉的，但是被误导了。二十世纪中叶有一股使用无衬线（sans-serif）字体的风气。这些字体的确更接近纯粹的基本的字形。但这不是你在文本里要解决的问题。字母能被容易地认出是更重要的事情。虽然象是维多利亚时代的风格，但 <span class="font-family: 'Times New Roman', serif;">Times Roman</span> 的小写字母 <span class="font-family: 'Times New Roman', serif;">g</span> 很容易与小写字母 <span class="font-family: 'Times New Roman', serif;">y</span> 区分。
 
 问题可以解决也可以改进。在软件领域，一个难以对付的问题通常可以被一个等价的较易解决的问题代替。物理学因为要解决的问题变为预测可观察事物的行为，而不是把它与经典著作调和起来，而发展得更快了。
 
