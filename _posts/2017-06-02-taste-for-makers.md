@@ -7,21 +7,21 @@ tags: [code]
 
 <div class="message">
 本文是 Taste for Makers 的中文翻译，经原作者 Paul Graham 的同意，公开发表。<br>
-Copyright 2002 by Paul Graham<br>
 在保留和不改变本版权信息的前提下，本译文可以自由地复制，变更和再发布。<br>
+Copyright 2002 by Paul Graham<br>
 原文地址：http://www.paulgraham.com/taste.html<br>
 中文地址：http://daiyuwen.freeshell.org/gb/taste/taste.html
 </div>
 
 
-> 哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因...
-> &mdash; Thomas Kuhn, The Copernican Revolution
->
-> 在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。
-> &mdash; Ben Rich, Skunk Works
->
-> 美是第一道检验：世上没有永久的地方容纳丑陋的数学。
-> &mdash; G. H. Hardy, A Mathematician's Apology
+哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因...
+&mdash; Thomas Kuhn, The Copernican Revolution
+
+在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。
+&mdash; Ben Rich, Skunk Works
+
+美是第一道检验：世上没有永久的地方容纳丑陋的数学。
+&mdash; G. H. Hardy, A Mathematician's Apology
 
 
 我最近与一位在 MIT 任教的朋友聊天。他的领域现在很热门，来自即将成为研究生的申请表每年都潮水般地涌向他。“他们中的大多数看上去都很聪明，”他说。“我不能确定的是他们是否有鉴赏力。”
@@ -90,7 +90,7 @@ Copyright 2002 by Paul Graham<br>
 
 传统上美术领域的最高位置留给了人物画。传统是有原因的，不是因为人物画在我们头脑里留下印象，而其它画种没有。我们是如此善于观察人脸，迫使画脸的人不懈努力使我们感到满意。如果你画树的时候把树枝画偏了五度，没人会发现。如果你把人眼画偏了五度，人人都会注意到。
 
-当 Bauhaus 学派采纳 Sullivan 的“形式跟随功能”的时候，他们指的是，形式应该跟随功能。而且如果功能足够困难，形式也必须跟随，因为没有出错的余地。野生动物是美丽的，因为它们有艰苦的生活。[^1]
+当 Bauhaus 学派采纳 Sullivan 的“形式跟随功能”的时候，他们指的是，形式应该跟随功能。[^1]而且如果功能足够困难，形式也必须跟随，因为没有出错的余地。野生动物是美丽的，因为它们有艰苦的生活。
 
 **好的设计看上去很容易。**就象优秀的运动员，伟大的设计者使人觉得设计很容易。通常这是一种表象。经过好几遍的修改，才会有读起来朗朗上口的文章。
 
@@ -175,4 +175,3 @@ Copyright 2002 by Paul Graham<br>
 
 [^1]: Sullivan 实际上说的是: 形式永远跟随功能（form ever follows function）。不过我认为这个不准确的引用更接近现代主义建筑师的意思。
 
-Stephen G. Brush, <cite>Why was Relativity Accepted?</cite> Phys. Perspect. 1 (1999) 184-214.
