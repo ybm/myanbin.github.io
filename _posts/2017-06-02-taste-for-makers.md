@@ -14,13 +14,13 @@ Copyright 2002 by Paul Graham<br>
 </div>
 
 
-> 哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因...
+> 哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因...<br>
 &mdash; <cite>Thomas Kuhn, The Copernican Revolution</cite>
 
-> 在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。
+> 在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。<br>
 &mdash; <cite>Ben Rich, Skunk Works</cite>
 
-> 美是第一道检验：世上没有永久的地方容纳丑陋的数学。
+> 美是第一道检验：世上没有永久的地方容纳丑陋的数学。<br>
 &mdash; <cite>G. H. Hardy, A Mathematician's Apology</cite>
 
 
