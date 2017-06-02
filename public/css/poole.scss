@@ -216,6 +216,14 @@ blockquote {
   /*color: #7a7a7a;*/
   border-left: .25rem solid #e5e5e5;
 }
+blockquote:before {
+  display: block;
+  height: 0;
+  content: "“";
+  margin-left: -.95em;
+  font: italic 400%/1 Cochin, Georgia,"Times New Roman", serif;
+  color: #999;
+}
 blockquote p:last-child {
   margin-bottom: 0;
 }
@@ -224,6 +232,11 @@ blockquote p:last-child {
     padding-left: 1.25rem;
   }
 }
+
+cite {
+  font-style: italic;
+}
+
 
 img {
   display: block;
@@ -455,9 +468,10 @@ sup {
   line-height: 0;
 }
 .footnotes > ol {
-  opacity: 0.75;
+  opacity: 0.8;
+  padding-left: 1.5rem;
 }
-.footnotes::before, .footnotes::after {
+.footnotes::before {
   content: "";
   display: block;
   margin: 1.5rem 0;
