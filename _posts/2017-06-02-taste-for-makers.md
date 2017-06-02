@@ -7,20 +7,20 @@ tags: [code]
 
 <div class="message">
 本文是 Taste for Makers 的中文翻译，经原作者 Paul Graham 的同意，公开发表。<br>
-在保留和不改变本版权信息的前提下，本译文可以自由地复制，变更和再发布。<br>
 Copyright 2002 by Paul Graham<br>
-原文地址：Paul Graham（http://www.paulgraham.com/taste.html）<br>
-中文译者：戴雨文（http://daiyuwen.freeshell.org/gb/taste/taste.html）
+在保留和不改变本版权信息的前提下，本译文可以自由地复制，变更和再发布。<br>
+原文地址：http://www.paulgraham.com/taste.html<br>
+中文地址：http://daiyuwen.freeshell.org/gb/taste/taste.html
 </div>
 
 
-> "哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因..."
+> 哥白尼对天动说美学上的反对是他拒绝托勒密体系的重要原因...
 > &mdash; Thomas Kuhn, The Copernican Revolution
 >
-> "在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。" 
+> 在 Kelly Johnson 的训练之下，我们狂热地坚信他的主张：一架看上去很美的飞机飞得也会同样的美。
 > &mdash; Ben Rich, Skunk Works
 >
-> "美是第一道检验：世上没有永久的地方容纳丑陋的数学。" 
+> 美是第一道检验：世上没有永久的地方容纳丑陋的数学。
 > &mdash; G. H. Hardy, A Mathematician's Apology
 
 
@@ -64,7 +64,7 @@ Copyright 2002 by Paul Graham<br>
 
 **好的设计解决正确的问题。**典型的（烹饪用的）炉子有四个出火口，形成一个正方形，各有一个开关控制它们。你如何安排这些开关？最简单的答案是把它们排成一行。但这是答非所问。开关是给人用的，如果你把它们排成一行，不幸的厨师不得不每次都停下来思考一下哪个开关是控制哪个出火口的。更好的办法是象出火口那样安排成一个正方形。
 
-许多坏的设计是勤勉的，但是被误导了。二十世纪中叶有一股使用无衬线（sans-serif）字体的风气。这些字体的确更接近纯粹的基本的字形。但这不是你在文本里要解决的问题。字母能被容易地认出是更重要的事情。虽然象是维多利亚时代的风格，但 <span class="font-family: 'Times New Roman', serif;">Times Roman</span> 的小写字母 <span class="font-family: 'Times New Roman', serif;">g</span> 很容易与小写字母 <span class="font-family: 'Times New Roman', serif;">y</span> 区分。
+许多坏的设计是勤勉的，但是被误导了。二十世纪中叶有一股使用无衬线（sans-serif）字体的风气。这些字体的确更接近纯粹的基本的字形。但这不是你在文本里要解决的问题。字母能被容易地认出是更重要的事情。虽然象是维多利亚时代的风格，但 <span style="font-family: 'Times New Roman', serif;">Times Roman</span> 的小写字母 <span class="font-family: 'Times New Roman', serif;">g</span> 很容易与小写字母 <span style="font-family: 'Times New Roman', serif;">y</span> 区分。
 
 问题可以解决也可以改进。在软件领域，一个难以对付的问题通常可以被一个等价的较易解决的问题代替。物理学因为要解决的问题变为预测可观察事物的行为，而不是把它与经典著作调和起来，而发展得更快了。
 
@@ -90,7 +90,7 @@ Copyright 2002 by Paul Graham<br>
 
 传统上美术领域的最高位置留给了人物画。传统是有原因的，不是因为人物画在我们头脑里留下印象，而其它画种没有。我们是如此善于观察人脸，迫使画脸的人不懈努力使我们感到满意。如果你画树的时候把树枝画偏了五度，没人会发现。如果你把人眼画偏了五度，人人都会注意到。
 
-当 Bauhaus 学派采纳 Sullivan 的“形式跟随功能”的时候，他们指的是，形式应该跟随功能。而且如果功能足够困难，形式也必须跟随，因为没有出错的余地。野生动物是美丽的，因为它们有艰苦的生活。
+当 Bauhaus 学派采纳 Sullivan 的“形式跟随功能”的时候，他们指的是，形式应该跟随功能。而且如果功能足够困难，形式也必须跟随，因为没有出错的余地。野生动物是美丽的，因为它们有艰苦的生活。[^1]
 
 **好的设计看上去很容易。**就象优秀的运动员，伟大的设计者使人觉得设计很容易。通常这是一种表象。经过好几遍的修改，才会有读起来朗朗上口的文章。
 
@@ -173,8 +173,6 @@ Copyright 2002 by Paul Graham<br>
 不能忍受丑陋还不够。在发展出知道哪儿需要修改的嗅觉之前，你得对该领域非常理解。你得埋头苦干。你成为专家之后，你会听到内心的声音：What a hack！一定会有更好的办法。不要忽略这种声音，培养它们。伟大作品的秘决是：非常准确的鉴赏力加上能使它满足的能力。
 
 
-原注：
-Sullivan 实际上说的是: 形式永远跟随功能（form ever follows function）。不过我认为这个不准确的引用更接近现代主义建筑师的意思。
+[^1]: Sullivan 实际上说的是: 形式永远跟随功能（form ever follows function）。不过我认为这个不准确的引用更接近现代主义建筑师的意思。
 
-Stephen G. Brush, "Why was Relativity Accepted?" Phys. Perspect. 1 (1999) 184-214.
-
+Stephen G. Brush, <cite>Why was Relativity Accepted?</cite> Phys. Perspect. 1 (1999) 184-214.
