@@ -215,16 +215,24 @@ blockquote {
   margin: .8rem 0;
   /*color: #7a7a7a;*/
 }
-blockquote:before {
+blockquote::before {
   display: block;
   height: 0;
   content: "“";
-  margin-left: -.95em;
+  margin-left: -.9em;
   font: italic 400%/1 Cochin, Georgia, "Times New Roman", serif;
   color: #999;
 }
 blockquote p:last-child {
   margin-bottom: 0;
+}
+@media (max-width: 48em) {
+  blockquote::before {
+    display: none;
+  }
+  blockquote {
+    border-left: .5rem solid #f6f6f6;
+  }
 }
 
 cite {
