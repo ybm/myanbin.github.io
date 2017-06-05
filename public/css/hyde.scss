@@ -92,7 +92,7 @@ html {
   left: -17.7rem;
   width: 18rem;
   will-change: transform;
-  box-shadow: 0.25rem 0 0.5rem rgba(0, 0, 0, 0.15)
+  box-shadow: 0.25rem 0 0.3rem rgba(0, 0, 0, 0.15)
 }
 
 .drawer > .sidebar::before {
@@ -138,7 +138,7 @@ html {
   display: block;
   position: absolute;
   top: 0rem;
-  left: 0.5rem;
+  left: 0.3rem;
   padding: 1.25rem 1rem ;
   color: #9a9a9a;
 }
@@ -272,10 +272,10 @@ html {
    * Ensure same content width when JS drawer is disabled.
    * Failing to do this caused text reflowing, when the JS kicked in (adding the .drawer styles)
    * and moved the drawer from the bottom to the side.
-   * Now the drawer is placed above the 0.5rem border on the side.
+   * Now the drawer is placed above the 0.3rem border on the side.
    * It also looks kinda cool w/o the drawer.
    */
-  border-left: 0.5rem solid #fff;
+  border-left: 0.3rem solid #fff;
 }
 
 @media (min-width: 48em) {
