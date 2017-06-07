@@ -185,10 +185,6 @@ pre {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   background-color: #f8f8f8;
-
-  /* Make code same width as regular text, and scroll the full page width on mobile */
-  margin-left: -1rem;
-  margin-right: -1rem;
 }
 pre code {
   padding: 0;
@@ -219,7 +215,7 @@ blockquote::before {
   display: block;
   height: 0;
   content: "“";
-  margin-left: -.9em;
+  margin-left: -.8em;
   font: italic 400%/1 Cochin, Georgia, "Times New Roman", serif;
   color: #999;
 }
