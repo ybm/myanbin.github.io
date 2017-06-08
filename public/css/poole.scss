@@ -167,7 +167,7 @@ pre {
 code {
   padding: .18em .5em;
   /* Could be mistaken for a link if the user choses a similar link-color, so better no colored inline code. */
-  background-color: #f6f6f6;
+  background-color: #eee8d5;
   border-radius: 0px;
   font-size: .95rem;
 }
@@ -184,7 +184,7 @@ pre {
   word-wrap: break-word;*/
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
-  background-color: #f8f8f8;
+  background-color: #f2f2f2;
 }
 pre code {
   padding: 0;
