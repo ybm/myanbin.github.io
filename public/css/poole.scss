@@ -475,9 +475,16 @@ ul.related-posts a + span {
 sup {
   line-height: 0;
 }
+.footnote::before {
+  content: "［";
+}
+.footnote::after {
+  content: "］";
+}
 .footnotes > ol {
   opacity: 0.8;
   padding-left: 1.5rem;
+  font-size: 0.8rem;
 }
 .footnotes::before {
   content: "";
@@ -485,5 +492,4 @@ sup {
   margin: 1.5rem 0;
   border: 0;
   border-top: 1px solid #eee;
-  border-bottom: 1px solid #fff;
 }
