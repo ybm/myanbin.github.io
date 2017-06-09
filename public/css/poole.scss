@@ -476,15 +476,15 @@ sup {
   line-height: 0;
 }
 .footnote::before {
-  content: "［";
+  content: "[";
 }
 .footnote::after {
-  content: "］";
+  content: "]";
 }
 .footnotes > ol {
   opacity: 0.8;
   padding-left: 1.5rem;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 .footnotes::before {
   content: "";
