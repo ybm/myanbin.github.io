@@ -482,7 +482,6 @@ sup {
   content: "]";
 }
 .footnotes > ol {
-  opacity: 0.8;
   padding-left: 1.5rem;
   font-size: 0.9rem;
 }
@@ -491,5 +490,6 @@ sup {
   display: block;
   margin: 1.5rem 0;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #000;
+  width: 20%;
 }
