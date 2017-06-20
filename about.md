@@ -18,7 +18,7 @@ order: 6
 {% endif %}
 
 
-我是饮冰先生，15 年毕业于北京邮电大学计算机专业，目前在中国北京居住和工作，从事 IT 行业。我喜爱阅读、美食和电影，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
+我是饮冰先生，15 年毕业于北京邮电大学计算机专业，目前在中国北京居住和工作，从事 IT 行业。我喜爱阅读、美食、电影和一切美的事物，也喜欢哲学。我是一个具有 [INFP](http://www.personalitypage.com/INFP.html) 性格的人。
 
 
 ## 更加了解我

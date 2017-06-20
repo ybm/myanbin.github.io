@@ -1,7 +1,6 @@
 ---
 layout: post
 title: '创造者的鉴赏力'
-tags: [code]
 ---
 
 
