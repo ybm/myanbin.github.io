@@ -2,7 +2,7 @@
 layout: page
 title: "关于"
 permalink: about.html
-image: /public/img/sierra.jpg
+image: /public/img/redflag.jpg
 order: 6
 ---
 
