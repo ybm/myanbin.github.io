@@ -24,14 +24,6 @@
     font-style: normal;
 }
 
-/* Font for keyboard */
-@font-face {
-    font-family: 'Average Sans';
-    src: url('../fonts/averagesans.ttf?bytfto') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 /*
  * Global resets
  *
@@ -178,7 +170,7 @@ html {
 /* About section */
 .sidebar-about > h1 {
   /*font-family: "PT Serif", Georgia, serif;*/
-  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", sans-serif;
+  font-family: "-apple-system", "Open Sans", "Helvetica Neue", "PingFang SC", "Microsoft JhengHei", sans-serif;
   color: #fff;
   margin-top: 0;
   font-size: 2rem;
@@ -320,13 +312,16 @@ html {
   content: "\eab0";
 }
 .icon.icon-linkedin:before {
-  content: "\eac9";
+  content: "\eaca";
 }
 .icon.icon-sina-weibo:before {
   content: "\ea9a";
 }
 .icon.icon-rss:before {
-  content: "\ea9c";
+  content: "\ea9b";
+}
+.icon.icon-dribbble:before {
+  content: "\eaa7";
 }
 .icon.icon-calendar:before {
   content: "\e953";
