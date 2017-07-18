@@ -89,7 +89,7 @@ html {
   position: fixed;
   bottom: 0;
   top: 0;
-  left: -17.7rem;
+  left: -19rem;
   width: 18rem;
   will-change: transform;
   box-shadow: 0.25rem 0 0.3rem rgba(0, 0, 0, 0.15)
@@ -138,8 +138,8 @@ html {
   display: block;
   position: absolute;
   top: 0rem;
-  left: 0.3rem;
-  padding: 1.25rem 1rem ;
+  left: 0rem;
+  padding: 1rem ;
   color: #9a9a9a;
 }
 
@@ -275,7 +275,7 @@ html {
    * Now the drawer is placed above the 0.3rem border on the side.
    * It also looks kinda cool w/o the drawer.
    */
-  border-left: 0.3rem solid #fff;
+  // border-left: 0.3rem solid #fff;
 }
 
 @media (min-width: 48em) {
