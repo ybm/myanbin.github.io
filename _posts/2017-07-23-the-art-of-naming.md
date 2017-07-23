@@ -50,7 +50,7 @@ userCount += 1;
 
 应该避免使用抽象的名字，比如不要使用 `tmp` 或 `getData` 这样空洞抽象的名字。
 
-可以在名字中增加额外的信息。比如 `string hex_id`、`size_kb` 等。在给布尔类型命名时，加上 is、has、can、should 让含义更清晰，比如 `bool use_ssl = true` 好于 `bool disable_ssl = false`。
+可以在名字中增加额外的信息。比如 `string hex_id`、`size_kb` 等。在给布尔类型命名时，加上 `is`、`has`、`can`、`should` 让含义更清晰，比如 `bool use_ssl = true` 好于 `bool disable_ssl = false`。
 
 使用不会被误解的名字。比如用 `first` 和 `last` 来表示包含的范围（闭区间），用 `begin` 和 `end` 来表示排除的范围（开区间）：
 
