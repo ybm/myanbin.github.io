@@ -23,3 +23,5 @@ order: 5
 * [Ray's 博客](https://ray916.github.io/)
 
 * [zkli's blog](https://lizekui.github.io/)
+
+* [嗨森的猫窝](http://hexenq.com/blog/)
